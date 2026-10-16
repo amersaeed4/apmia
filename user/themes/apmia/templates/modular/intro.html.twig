@@ -8,7 +8,7 @@
             {% if h.title %}<h2>{{ h.title }}</h2>{% endif %}
             <div class="prose">{{ page.content|raw }}</div>
             {% if h.button_label and h.button_url %}
-            <p><a class="btn" href="{{ h.button_url }}">{{ h.button_label }} {{ ui.icon('arrow') }}</a></p>
+            <p><a class="btn" href="{{ h.button_url starts with '/' ? url(h.button_url) : h.button_url }}">{{ h.button_label }} {{ ui.icon('arrow') }}</a></p>
             {% endif %}
         </div>
         {% if img %}

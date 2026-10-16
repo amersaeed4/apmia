@@ -7,8 +7,8 @@
             {% if h.text %}<p>{{ h.text }}</p>{% endif %}
         </div>
         <div class="cta-actions">
-            {% if h.button_label and h.button_url %}<a class="btn btn-light" href="{{ h.button_url }}">{{ h.button_label }} {{ ui.icon('arrow') }}</a>{% endif %}
-            {% if h.button2_label and h.button2_url %}<a class="btn btn-outline-light" href="{{ h.button2_url }}">{{ h.button2_label }}</a>{% endif %}
+            {% if h.button_label and h.button_url %}<a class="btn btn-light" href="{{ h.button_url starts with '/' ? url(h.button_url) : h.button_url }}">{{ h.button_label }} {{ ui.icon('arrow') }}</a>{% endif %}
+            {% if h.button2_label and h.button2_url %}<a class="btn btn-outline-light" href="{{ h.button2_url starts with '/' ? url(h.button2_url) : h.button2_url }}">{{ h.button2_label }}</a>{% endif %}
         </div>
     </div>
 </section>

@@ -13,7 +13,7 @@
                 {% if s.title %}<h2>{{ s.title }}</h2>{% endif %}
                 {% if s.text %}<p>{{ s.text }}</p>{% endif %}
                 {% if s.button_label and s.button_url %}
-                <a class="btn btn-light" href="{{ s.button_url }}">{{ s.button_label }} {{ ui.icon('arrow') }}</a>
+                <a class="btn btn-light" href="{{ s.button_url starts with '/' ? url(s.button_url) : s.button_url }}">{{ s.button_label }} {{ ui.icon('arrow') }}</a>
                 {% endif %}
             </div>
         </div>

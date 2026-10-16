@@ -16,7 +16,7 @@
             <h4>{{ col.title }}</h4>
             <ul>
                 {% for l in col.links %}
-                <li><a href="{{ l.url starts with 'http' ? l.url : (l.url == '/' ? (base_url == '' ? '/' : base_url) : base_url ~ l.url) }}">{{ l.label }}</a></li>
+                <li><a href="{{ l.url starts with '/' ? url(l.url) : l.url }}">{{ l.label }}</a></li>
                 {% endfor %}
             </ul>
         </nav>
