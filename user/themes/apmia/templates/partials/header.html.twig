@@ -1,0 +1,58 @@
+{% import 'macros/ui.html.twig' as ui %}
+{% set theme = config.theme %}
+{% if theme.topbar.show %}
+<div class="topbar">
+    <div class="container topbar-inner">
+        <ul class="topbar-list">
+            {% if theme.topbar.address %}<li>{{ ui.icon('pin') }}<span>{{ theme.topbar.address }}</span></li>{% endif %}
+        </ul>
+        <ul class="topbar-list topbar-right">
+            {% if theme.topbar.phone %}<li>{{ ui.icon('phone') }}<a href="tel:{{ theme.topbar.phone|replace({' ':'', '-':''}) }}">{{ theme.topbar.phone }}</a></li>{% endif %}
+            {% if theme.topbar.email %}<li>{{ ui.icon('mail') }}<a href="mailto:{{ theme.topbar.email }}">{{ theme.topbar.email }}</a></li>{% endif %}
+        </ul>
+    </div>
+</div>
+{% endif %}
+
+<header class="site-header" id="site-header">
+    <div class="container header-inner">
+        <a class="brand" href="{{ base_url == '' ? '/' : base_url }}" aria-label="{{ site.title }}">
+            <img src="{{ logo_url }}" alt="" width="64" height="64">
+            <span class="brand-text">
+                <strong>{{ theme.org.name|default(site.title) }}</strong>
+                {% if theme.org.tagline %}<small>{{ theme.org.tagline }}</small>{% endif %}
+            </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+            <span class="when-closed">{{ ui.icon('menu') }}</span>
+            <span class="when-open">{{ ui.icon('close') }}</span>
+        </button>
+
+        <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+            <ul class="nav-list">
+            {% for p in pages.children.visible %}
+                {% set kids = p.children.visible %}
+                {% set is_news = p.template == 'news' %}
+                {% set has_sub = kids|length > 0 or is_news %}
+                <li class="nav-item{{ has_sub ? ' has-sub' : '' }}{{ (p.active or p.activeChild) ? ' is-active' : '' }}">
+                    <a class="nav-link" href="{{ p.home ? (base_url == '' ? '/' : base_url) : p.url }}"{% if p.active %} aria-current="page"{% endif %}>{{ p.menu }}</a>
+                    {% if has_sub %}
+                    <button class="sub-toggle" type="button" aria-expanded="false" aria-label="Toggle {{ p.menu }} submenu">{{ ui.icon('chevron') }}</button>
+                    <ul class="sub-menu">
+                        {% for c in kids %}
+                        <li><a href="{{ c.url }}"{% if c.active %} aria-current="page"{% endif %}>{{ c.menu }}</a></li>
+                        {% endfor %}
+                        {% if is_news %}
+                            {% for cat in theme.news_categories %}
+                            <li><a href="{{ p.url }}/category{{ config.system.param_sep }}{{ cat.slug }}">{{ cat.label }}</a></li>
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>

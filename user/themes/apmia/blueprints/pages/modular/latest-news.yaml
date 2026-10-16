@@ -1,0 +1,37 @@
+title: Latest News
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        news:
+          type: tab
+          title: Section
+          fields:
+            header.eyebrow:
+              type: text
+              label: Small label
+            header.title:
+              type: text
+              label: Section title
+              default: Latest News
+            header.lead:
+              type: text
+              label: Intro line
+            header.source:
+              type: text
+              label: News page route
+              default: /news
+            header.limit:
+              type: text
+              label: How many to show
+              default: 6
+              validate:
+                type: int
+                min: 1
+                max: 12
+            header.button_label:
+              type: text
+              label: Button label
+              default: All news

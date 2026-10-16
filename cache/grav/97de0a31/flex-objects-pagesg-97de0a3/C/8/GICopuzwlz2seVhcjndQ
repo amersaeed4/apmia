@@ -1,0 +1,11 @@
+1792153288
+04.news__SLASH__online-zoom-meeting-with-the-chief-minister-of-balochistan
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:63:"news/online-zoom-meeting-with-the-chief-minister-of-balochistan";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:58:"Online Zoom meeting with the Chief Minister of Balochistan";s:4:"date";s:16:"2024-11-28 14:07";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:17:"events-activities";}}s:5:"image";s:12:"Picture1.png";}s:11:"frontmatter";s:162:"title: "Online Zoom meeting with the Chief Minister of Balochistan"
+date: "2024-11-28 14:07"
+taxonomy:
+  category:
+    - "events-activities"
+image: "Picture1.png"";s:8:"markdown";s:386:"Chairman APMIA, Muhammad Bilal Khan, held an online Zoom meeting with the Chief Minister of Balochistan, Mr. Sarfraz Bugti, at Federation House, Karachi. During the meeting, the Chairman discussed security issues in the mining sector and the illegal restrictions on granting leases in Chagai. Other mining-related issues were also deliberated upon during the meeting
+
+![](Picture2.png)
+";}s:7:"storage";a:6:{s:3:"key";s:63:"news/online-zoom-meeting-with-the-chief-minister-of-balochistan";s:11:"storage_key";s:66:"04.news/online-zoom-meeting-with-the-chief-minister-of-balochistan";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"fcc3b0d0293d26a4bd460444ac5655ab";}}

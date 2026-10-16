@@ -1,0 +1,445 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\CoreExtension;
+use Twig\Extension\SandboxExtension;
+use Twig\MacroNamespace;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Sandbox\SecurityNotAllowedTestError;
+use Twig\Source;
+use Twig\Template;
+use Twig\TemplateWrapper;
+
+/* @Page:/Users/amer/Sites/apmia/user/pages/04.news/minutes-of-1st-central-executive-committee-meeting-of-all-pakistan-marble-industries-association-on-october-01-2021 */
+class __TwigTemplate_f9286c211205565a4ea720c559e2e966_sourced extends Template
+{
+    private Source $source;
+    /**
+     * @var array<string, MacroNamespace>
+     */
+    private array $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        $this->sandbox = $env->getExtension(SandboxExtension::class)->getChecker();
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        // line 1
+        yield "<p><strong><em>Ref No.: APMIA/HO/2021/4283</em></strong></p>
+<p><strong><em>Dated: October 01, 2021</em></strong></p>
+<p><strong>AGENDA 1st CEC MEETING 2021 (APMIA)</strong></p>
+<p>The General Elections shall be held by secret ballot during the month of September 2019 and members renewed till 31st March, 2020 are eligible to cast vote.</p>
+<ol>
+<li>Induct / Co-opt four (4) vacant seats of CEC from Corporate Class</li>
+<li>Increase the number of Vice Chairman from each Province</li>
+<li>To decide the registration of members in Sales Tax</li>
+<li>To form Marble Clusters in each city and Appoint of Sub Zonal Vice Chairmen Proposed Names; (i) Kamran Riasat, M/s Aswad Granite, Sangjani (ii) Shah Khalid Safi, M/s Ittefaq Safi Mining, Mohmand</li>
+<li>Appointment of 15 CEC members from each zone</li>
+<li>Ensure Presence of Executive Committee member in every CEC meeting</li>
+<li>To ensure the increase in membership by binding every CEC member</li>
+<li>Way forward for Association’s own building</li>
+<li>To conduct CEC meeting in every province</li>
+<li>To include the people from mining for membership</li>
+<li>To work for the strategy for resolving financial disputes between the members</li>
+<li>Action plan for resolving financial disputes in PASDEC of APMIA members</li>
+<li>Issues of Marble City Risalpur</li>
+<li>Issues of TDAP</li>
+<li>Issues of import valuation</li>
+<li>Issues of Export</li>
+<li>Formation of sub committees and Nominations of Conveners;
+<ol>
+<li>HR &amp; Finance Committee<em>(Previous Convener, Mr. Mian Irfan Zafar)</em></li>
+<li>Diplomatic and Foreign Affairs committee<em>(Previous Convener Mr. M. Shakeel Munir)</em></li>
+<li>Import / Export Promotion Committee &amp; Customs Committee<em>(Previous Convener, Mr. Shoaib Sultan)</em></li>
+<li>PASDEC Advisory Committee<em>(Previous Convener, Mr. Muhammad Shakeel Munir)</em></li>
+<li>Local regional committees for local issues</li>
+<li>Scrutiny Committee for APMIA Membership(<em>Previous Convener, Mr. Mian Abdul Sami)</em></li>
+<li>Tax Committee<em>(Previous Convener, Mr. Shoaib Hamid)</em></li>
+<li>APMIA Committee for Marble City, Risalpur(<em>Previous Convener, Mr. Asghar Khan Utmankhel)</em></li>
+<li>APMIA Trade &amp; Commerce Committee(<em>Previous Convener, Mr. Mian Abdul Sami)</em></li>
+<li>Mining &amp; CSR Committee<em>(Previous Convener, Mr. Muhammad Bilal Khan</em></li>
+</ol></li>
+<li>APMIA Head Office, Islamabad, Bank Account Signatories</li>
+<li>Membership certificate of the members in settled ares without income tax return <strong>?</strong></li>
+<li>Any other point with the approval of Chairman</li>
+</ol>
+<h5><strong>Present**</strong>Office Bearers;**</h5>
+<ul>
+<li>Shabbir Ahmed Chairman(Industrial Mineral Grinding, Gaddani)</li>
+<li>Sattar Hussain Shah Senior Chairman(Natural Marble, Islamabad)</li>
+<li>Farooq Hameed Bhatti Vice Chairman (North)( Reliance Traders, Lahore)</li>
+<li>Jamshed Khan Amazai Vice Chairman (South)(New Amazai Marble, Karachi)</li>
+</ul>
+<h5><strong>Central Executive Committee Members;</strong></h5>
+<ol>
+<li>Sheikh Muhammad Rizwan K-2 Marble Industry, Islamabad</li>
+<li>Ilyas Muhammad Resource Industries (Pvt.) Limited, Hattar</li>
+<li>Mazhar Ahmed Mazhar Enterprises, Lahore</li>
+<li>Ghulam Mustafa Naseeb FMN International Trading, Karachi</li>
+<li>Sultan Ul Arifeen Abbas Marble Factory, Mardan</li>
+<li>Niaz Amin R.Z Marble, Karachi</li>
+<li>Muhammad Shifa Chaudhary Marble, Gujranwala</li>
+<li>Ilyas Khan Koh e Moor Mining Company, Mohmand</li>
+<li>Inayat U Rehman Rehman City Marble, Karachi</li>
+<li>Zeeshan Azam Natural Marble Industry, Gujranwala</li>
+<li>Muhammad Afzal Shahid K-2 Corporation, Rawat</li>
+<li>Imtiaz Khan Stone Age Granite, Hattar</li>
+<li>Shakir Ullah Pak Marble Industry, Shabqadar</li>
+</ol>
+<h5>Secretary General:</h5>
+<h5><strong>Syed Masud Gillani</strong></h5>
+<p>The First Executive Committee Meeting for the year 2021-2022 begin with recitation of few verses from Holy Quran, newly elected Chairman APMIA Mr. Shabbir Ahmed welcomed the executive committee members and other participants.</p>
+<p>Formal proceeding of the meeting began and following agenda items were discussed in detail;</p>
+<ul>
+<li><strong>Induct / Co-opt four (4) members for the vacant seats of CEC from Corporate Class:</strong></li>
+</ul>
+<p>Vacant seats from the Corporate Class were seven (7) and only three (3) nomination forms were received to APMIA Head Office, Islamabad, four seats were remained unfilled. Therefore, by the approval of Executive Committee four (4) members were inducted to the vacant seats to complete the strength of Central Executive Committee of 30 Members</p>
+<p>Their particulars are as follows;</p>
+<ol>
+<li>Mr. M. Saleem Mughal (SAS Enterprises, Islamabad)</li>
+<li>Mr. Amish Irfan (United Diamond Abrasives (Pvt.) Ltd, Islamabad)</li>
+<li>Mr. Ghulam Mustafa Naseeb (FMN International Trading, Karachi)</li>
+<li>Mr. Ali Ahmed (Value Plus, Gaddani)</li>
+</ol>
+<p>House unanimously approved.</p>
+<ul>
+<li><strong>Increase the number of Vice Chairman from each province</strong></li>
+</ul>
+<p>It was discussed in the meeting that the responsibilities of Chairman APMIA should be divided by increasing the number of Vice Chairman of the Association, Mr. Sheikh Muhammad Rizwan (Ex Chairman APMIA) brought to the knowledge of the members that to increase the Vice Chairman of the Association legally, following are the requirements need to be fulfilled for the Amendment in Memorandum &amp; Articles of Association,</p>
+<ol>
+<li>Notice for any amendment, circular to all general body members must be sent before the time period of 21 days mentioning the agenda of the meeting.</li>
+<li>Approval of the complete quorum of Executive Committee members and 3/4 majority of general body members.</li>
+<li>Bank draft of Rs. 50,000/- in favor of DGTO</li>
+<li>Reason / Justification of the amendment</li>
+</ol>
+<p>Mr. Shabbir Ahmed (Chairman APMIA) said that it should be legalized, so that the Vice Chairman in each province can work independently. Since APMIA is the only registered association and having a Vice Chairman in every province will affect fake associations and APMIA will become a strong Association. Mr. Sheikh Muhammad Rizwan (Ex Chairman APMIA) highlighted that it is difficult to assemble the ¾ majority of the general body members, therefore it was mutually agreed to appoint a Sub Zonal Vice Chairman in each cluster who will be responsible to take the consent in written from each member from their cluster and provide the consent to APMIA Head Office, Islamabad for further perusal.</p>
+<p>All agreed to the suggestion.</p>
+<ul>
+<li><strong>To decide the registration of members in Sales Tax</strong></li>
+</ul>
+<p>Mr. Sheikh Muhammad Rizwan brought to the knowledge of the committee that we have informed the members that they can register in sales tax at their own discretion, further it was also added that it is necessary to educate the members that they should</p>
+<p>register in sales tax because whether the sales tax is 17 percent or less, documentation will be compulsory.</p>
+<p>It was also mentioned that a proposal of Rs. 50/- per ton is also provided to FBR, FBR should collect sales tax at source rather to collect from direct collection method which is practically not possible for the whole industry. If imposed the said proposal is imposed, FBR can collect sales tax from all over Pakistan without any discretion.</p>
+<p>Mr. Muhammad Afzal Shahid mentioned that the government will start the procedure of next year’s finance bill in February or March and we should start our preparation regarding sales tax so that we can present our suggestions to the government in time and a positive result can be achieved.</p>
+<p>Mr. Sheikh Muhammad Rizwan suggested to form a FBR committee to pursue the matter of sales tax.</p>
+<p>All CEC members agreed</p>
+<ul>
+<li><strong>To form Marble Clusters in each city and appoint Sub Zonal Vice Chairman.</strong></li>
+</ul>
+<p>It was mutually agreed by the Executive Committee members to form a Marble Cluster in each city and appoint Sub Zonal Vice Chairman.</p>
+<ul>
+<li><strong>Appointment of 15 CEC members from each zone (North and South)</strong></li>
+</ul>
+<p>It was mentioned to that the division of Central Executive Committee member should be equal to from North and South Zone. Mr. Sheikh Muhammad Rizwan told the quorum that the rules and regulations will be followed and will conclude this point after the consultation. Further, it was instructed to Secretary General APMIA to circulate the Memorandum and Articles of Association to executive committee members.</p>
+<ul>
+<li><strong>Ensure presence of Executive Committee meeting in every CEC meeting</strong></li>
+</ul>
+<p>Mr. Shabbir Ahmed stressed to ensure the presence of every CEC member in the Executive Committee meeting to maintain the decorum, in case of absence of any CEC member, he should inform the chair in written.</p>
+<ul>
+<li><strong>To ensure the increase in membership by binding every CEC member</strong></li>
+</ul>
+<p>It was mutually agreed by the Executive Committee members that the responsibility should be divided to every CEC member to increase the membership of APMIA to make association strong. With reference to the agenda item No. 4, it was agreed by the CEC members to form a Marble Cluster in each city and appoint Sub Zonal Vice Chairman.</p>
+<ul>
+<li><strong>Way forward for Association’s own Building</strong></li>
+</ul>
+<p>Mr. Sheikh Muhammad Rizwan mentioned that there is a option of 1 canal Plot on lease in I-9, Islamabad which will cost around 50 to 60 lacs. It was agreed that association should continue its efforts for its own office, the cost would be divided equally between both zones.</p>
+<ul>
+<li><strong>To conduct CEC meeting in every province</strong></li>
+</ul>
+<p>It was agreed to conduct CEC meeting in every province and next CEC meeting will be conducted in Quetta</p>
+<ul>
+<li><strong>To include people from mining for membership</strong></li>
+</ul>
+<p>Mr. Muhammad Afzal Shahid suggested that we should invite the mine owners and conduct an awareness seminar regarding the worth of membership of association. This will help to increase the membership of APMIA.</p>
+<ul>
+<li><strong>To work for the strategy for resolving financial disputes between the members</strong>.</li>
+</ul>
+<p>It was suggested to form a committee with mutual consent of Executive Committee Members with equal representation from both zones</p>
+<ul>
+<li><strong>Action plan for resolving financial disputes in PASDEC of APMIA members</strong></li>
+</ul>
+<p>The same suggestion was presented for this point of agenda according to the agenda item No. 11</p>
+<ul>
+<li><strong>Issues of Marble City, Risalpur</strong></li>
+</ul>
+<p>Mr. Sheikh Muhammad Rizwan informed the members that we have raised the issue of Marble City, Risalpur to every relevant forum and government departments including Prime Minister’s Secretariat, PASDEC, Ministry of Industries &amp; Production, Ministry of Commerce, TDAP etc and updated the members about the latest proceedings in resolving the electricity transmission issue of Marble City, Risalpur that PASDEC have paid the amount of Rs. 1.5 crore to PESCO and according to CEO PASDEC the issue of electricity will be resolved in 4 to 5 months.</p>
+<ul>
+<li><strong>Issues of TDAP</strong></li>
+</ul>
+<p>It was discussed in the meeting that Trade Development Authority of Pakistan (TDAP) always provide the information to the Association at 11th hour regarding relevant event or meeting, in result, our members cannot fully participate. This gap needs to be filled.</p>
+<ul>
+<li><strong>Formation of Committees and Nominations of Conveners;</strong></li>
+</ul>
+<p><strong>-HR &amp; Finance Committee:</strong></p>
+<p>Mr. Mian Irfan Zafar (Ex Senior Vice Chairman-APMIA) was nominated as the Convener of HR &amp; Finance Committee.</p>
+<p>Remaining committees will be formed and finalized after the mutual consultation</p>
+<ul>
+<li><strong>APMIA Head Office Bank account signatories.</strong></li>
+</ul>
+<p>APMIA bank account signatory authorities for regular office expenses of Allied Bank Account No. 0010000410380016 with the title of All Pakistan Marble Industries Association will include the following</p>
+<ol>
+<li>M. Irfan Zafar Senior Vice Chairman – APMIA</li>
+<li>M. Abdul Sami Founder Member – APMIA</li>
+<li>M. Shakeel Munir Former Chairman – APMIA</li>
+</ol>
+<p>Any two member’s signature for operation of the above mentioned account is acceptable.</p>
+<ul>
+<li><strong>Membership Certificate of the members in settled areas without income tax return**</strong>?**</li>
+</ul>
+<p>It was brought to the knowledge of the quorum that APMIA membership certificate can be issued to the members located in tax exemption areas but according to the rules it is not possible to issue membership certificate without latest tax return but membership Card can be issued to facilitate the member. All CEC agreed.</p>
+<p>Since no other point was to be discussed, therefore, the meeting ended with a vote of thanks to the Chair.</p>
+<h5><strong>Sincerely Yours,</strong></h5>
+<h5><strong>Secretary General</strong></h5>
+<h5><strong>All Pakistan Marble Industries Association</strong></h5>";
+        return; yield;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName(): string
+    {
+        return "@Page:/Users/amer/Sites/apmia/user/pages/04.news/minutes-of-1st-central-executive-committee-meeting-of-all-pakistan-marble-industries-association-on-october-01-2021";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDefaultEscapeStrategy(): string|false
+    {
+        return "html";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo(): array
+    {
+        return array (  45 => 1,);
+    }
+
+    public function getSourceContext(): Source
+    {
+        return new Source("<p><strong><em>Ref No.: APMIA/HO/2021/4283</em></strong></p>
+<p><strong><em>Dated: October 01, 2021</em></strong></p>
+<p><strong>AGENDA 1st CEC MEETING 2021 (APMIA)</strong></p>
+<p>The General Elections shall be held by secret ballot during the month of September 2019 and members renewed till 31st March, 2020 are eligible to cast vote.</p>
+<ol>
+<li>Induct / Co-opt four (4) vacant seats of CEC from Corporate Class</li>
+<li>Increase the number of Vice Chairman from each Province</li>
+<li>To decide the registration of members in Sales Tax</li>
+<li>To form Marble Clusters in each city and Appoint of Sub Zonal Vice Chairmen Proposed Names; (i) Kamran Riasat, M/s Aswad Granite, Sangjani (ii) Shah Khalid Safi, M/s Ittefaq Safi Mining, Mohmand</li>
+<li>Appointment of 15 CEC members from each zone</li>
+<li>Ensure Presence of Executive Committee member in every CEC meeting</li>
+<li>To ensure the increase in membership by binding every CEC member</li>
+<li>Way forward for Association’s own building</li>
+<li>To conduct CEC meeting in every province</li>
+<li>To include the people from mining for membership</li>
+<li>To work for the strategy for resolving financial disputes between the members</li>
+<li>Action plan for resolving financial disputes in PASDEC of APMIA members</li>
+<li>Issues of Marble City Risalpur</li>
+<li>Issues of TDAP</li>
+<li>Issues of import valuation</li>
+<li>Issues of Export</li>
+<li>Formation of sub committees and Nominations of Conveners;
+<ol>
+<li>HR &amp; Finance Committee<em>(Previous Convener, Mr. Mian Irfan Zafar)</em></li>
+<li>Diplomatic and Foreign Affairs committee<em>(Previous Convener Mr. M. Shakeel Munir)</em></li>
+<li>Import / Export Promotion Committee &amp; Customs Committee<em>(Previous Convener, Mr. Shoaib Sultan)</em></li>
+<li>PASDEC Advisory Committee<em>(Previous Convener, Mr. Muhammad Shakeel Munir)</em></li>
+<li>Local regional committees for local issues</li>
+<li>Scrutiny Committee for APMIA Membership(<em>Previous Convener, Mr. Mian Abdul Sami)</em></li>
+<li>Tax Committee<em>(Previous Convener, Mr. Shoaib Hamid)</em></li>
+<li>APMIA Committee for Marble City, Risalpur(<em>Previous Convener, Mr. Asghar Khan Utmankhel)</em></li>
+<li>APMIA Trade &amp; Commerce Committee(<em>Previous Convener, Mr. Mian Abdul Sami)</em></li>
+<li>Mining &amp; CSR Committee<em>(Previous Convener, Mr. Muhammad Bilal Khan</em></li>
+</ol></li>
+<li>APMIA Head Office, Islamabad, Bank Account Signatories</li>
+<li>Membership certificate of the members in settled ares without income tax return <strong>?</strong></li>
+<li>Any other point with the approval of Chairman</li>
+</ol>
+<h5><strong>Present**</strong>Office Bearers;**</h5>
+<ul>
+<li>Shabbir Ahmed Chairman(Industrial Mineral Grinding, Gaddani)</li>
+<li>Sattar Hussain Shah Senior Chairman(Natural Marble, Islamabad)</li>
+<li>Farooq Hameed Bhatti Vice Chairman (North)( Reliance Traders, Lahore)</li>
+<li>Jamshed Khan Amazai Vice Chairman (South)(New Amazai Marble, Karachi)</li>
+</ul>
+<h5><strong>Central Executive Committee Members;</strong></h5>
+<ol>
+<li>Sheikh Muhammad Rizwan K-2 Marble Industry, Islamabad</li>
+<li>Ilyas Muhammad Resource Industries (Pvt.) Limited, Hattar</li>
+<li>Mazhar Ahmed Mazhar Enterprises, Lahore</li>
+<li>Ghulam Mustafa Naseeb FMN International Trading, Karachi</li>
+<li>Sultan Ul Arifeen Abbas Marble Factory, Mardan</li>
+<li>Niaz Amin R.Z Marble, Karachi</li>
+<li>Muhammad Shifa Chaudhary Marble, Gujranwala</li>
+<li>Ilyas Khan Koh e Moor Mining Company, Mohmand</li>
+<li>Inayat U Rehman Rehman City Marble, Karachi</li>
+<li>Zeeshan Azam Natural Marble Industry, Gujranwala</li>
+<li>Muhammad Afzal Shahid K-2 Corporation, Rawat</li>
+<li>Imtiaz Khan Stone Age Granite, Hattar</li>
+<li>Shakir Ullah Pak Marble Industry, Shabqadar</li>
+</ol>
+<h5>Secretary General:</h5>
+<h5><strong>Syed Masud Gillani</strong></h5>
+<p>The First Executive Committee Meeting for the year 2021-2022 begin with recitation of few verses from Holy Quran, newly elected Chairman APMIA Mr. Shabbir Ahmed welcomed the executive committee members and other participants.</p>
+<p>Formal proceeding of the meeting began and following agenda items were discussed in detail;</p>
+<ul>
+<li><strong>Induct / Co-opt four (4) members for the vacant seats of CEC from Corporate Class:</strong></li>
+</ul>
+<p>Vacant seats from the Corporate Class were seven (7) and only three (3) nomination forms were received to APMIA Head Office, Islamabad, four seats were remained unfilled. Therefore, by the approval of Executive Committee four (4) members were inducted to the vacant seats to complete the strength of Central Executive Committee of 30 Members</p>
+<p>Their particulars are as follows;</p>
+<ol>
+<li>Mr. M. Saleem Mughal (SAS Enterprises, Islamabad)</li>
+<li>Mr. Amish Irfan (United Diamond Abrasives (Pvt.) Ltd, Islamabad)</li>
+<li>Mr. Ghulam Mustafa Naseeb (FMN International Trading, Karachi)</li>
+<li>Mr. Ali Ahmed (Value Plus, Gaddani)</li>
+</ol>
+<p>House unanimously approved.</p>
+<ul>
+<li><strong>Increase the number of Vice Chairman from each province</strong></li>
+</ul>
+<p>It was discussed in the meeting that the responsibilities of Chairman APMIA should be divided by increasing the number of Vice Chairman of the Association, Mr. Sheikh Muhammad Rizwan (Ex Chairman APMIA) brought to the knowledge of the members that to increase the Vice Chairman of the Association legally, following are the requirements need to be fulfilled for the Amendment in Memorandum &amp; Articles of Association,</p>
+<ol>
+<li>Notice for any amendment, circular to all general body members must be sent before the time period of 21 days mentioning the agenda of the meeting.</li>
+<li>Approval of the complete quorum of Executive Committee members and 3/4 majority of general body members.</li>
+<li>Bank draft of Rs. 50,000/- in favor of DGTO</li>
+<li>Reason / Justification of the amendment</li>
+</ol>
+<p>Mr. Shabbir Ahmed (Chairman APMIA) said that it should be legalized, so that the Vice Chairman in each province can work independently. Since APMIA is the only registered association and having a Vice Chairman in every province will affect fake associations and APMIA will become a strong Association. Mr. Sheikh Muhammad Rizwan (Ex Chairman APMIA) highlighted that it is difficult to assemble the ¾ majority of the general body members, therefore it was mutually agreed to appoint a Sub Zonal Vice Chairman in each cluster who will be responsible to take the consent in written from each member from their cluster and provide the consent to APMIA Head Office, Islamabad for further perusal.</p>
+<p>All agreed to the suggestion.</p>
+<ul>
+<li><strong>To decide the registration of members in Sales Tax</strong></li>
+</ul>
+<p>Mr. Sheikh Muhammad Rizwan brought to the knowledge of the committee that we have informed the members that they can register in sales tax at their own discretion, further it was also added that it is necessary to educate the members that they should</p>
+<p>register in sales tax because whether the sales tax is 17 percent or less, documentation will be compulsory.</p>
+<p>It was also mentioned that a proposal of Rs. 50/- per ton is also provided to FBR, FBR should collect sales tax at source rather to collect from direct collection method which is practically not possible for the whole industry. If imposed the said proposal is imposed, FBR can collect sales tax from all over Pakistan without any discretion.</p>
+<p>Mr. Muhammad Afzal Shahid mentioned that the government will start the procedure of next year’s finance bill in February or March and we should start our preparation regarding sales tax so that we can present our suggestions to the government in time and a positive result can be achieved.</p>
+<p>Mr. Sheikh Muhammad Rizwan suggested to form a FBR committee to pursue the matter of sales tax.</p>
+<p>All CEC members agreed</p>
+<ul>
+<li><strong>To form Marble Clusters in each city and appoint Sub Zonal Vice Chairman.</strong></li>
+</ul>
+<p>It was mutually agreed by the Executive Committee members to form a Marble Cluster in each city and appoint Sub Zonal Vice Chairman.</p>
+<ul>
+<li><strong>Appointment of 15 CEC members from each zone (North and South)</strong></li>
+</ul>
+<p>It was mentioned to that the division of Central Executive Committee member should be equal to from North and South Zone. Mr. Sheikh Muhammad Rizwan told the quorum that the rules and regulations will be followed and will conclude this point after the consultation. Further, it was instructed to Secretary General APMIA to circulate the Memorandum and Articles of Association to executive committee members.</p>
+<ul>
+<li><strong>Ensure presence of Executive Committee meeting in every CEC meeting</strong></li>
+</ul>
+<p>Mr. Shabbir Ahmed stressed to ensure the presence of every CEC member in the Executive Committee meeting to maintain the decorum, in case of absence of any CEC member, he should inform the chair in written.</p>
+<ul>
+<li><strong>To ensure the increase in membership by binding every CEC member</strong></li>
+</ul>
+<p>It was mutually agreed by the Executive Committee members that the responsibility should be divided to every CEC member to increase the membership of APMIA to make association strong. With reference to the agenda item No. 4, it was agreed by the CEC members to form a Marble Cluster in each city and appoint Sub Zonal Vice Chairman.</p>
+<ul>
+<li><strong>Way forward for Association’s own Building</strong></li>
+</ul>
+<p>Mr. Sheikh Muhammad Rizwan mentioned that there is a option of 1 canal Plot on lease in I-9, Islamabad which will cost around 50 to 60 lacs. It was agreed that association should continue its efforts for its own office, the cost would be divided equally between both zones.</p>
+<ul>
+<li><strong>To conduct CEC meeting in every province</strong></li>
+</ul>
+<p>It was agreed to conduct CEC meeting in every province and next CEC meeting will be conducted in Quetta</p>
+<ul>
+<li><strong>To include people from mining for membership</strong></li>
+</ul>
+<p>Mr. Muhammad Afzal Shahid suggested that we should invite the mine owners and conduct an awareness seminar regarding the worth of membership of association. This will help to increase the membership of APMIA.</p>
+<ul>
+<li><strong>To work for the strategy for resolving financial disputes between the members</strong>.</li>
+</ul>
+<p>It was suggested to form a committee with mutual consent of Executive Committee Members with equal representation from both zones</p>
+<ul>
+<li><strong>Action plan for resolving financial disputes in PASDEC of APMIA members</strong></li>
+</ul>
+<p>The same suggestion was presented for this point of agenda according to the agenda item No. 11</p>
+<ul>
+<li><strong>Issues of Marble City, Risalpur</strong></li>
+</ul>
+<p>Mr. Sheikh Muhammad Rizwan informed the members that we have raised the issue of Marble City, Risalpur to every relevant forum and government departments including Prime Minister’s Secretariat, PASDEC, Ministry of Industries &amp; Production, Ministry of Commerce, TDAP etc and updated the members about the latest proceedings in resolving the electricity transmission issue of Marble City, Risalpur that PASDEC have paid the amount of Rs. 1.5 crore to PESCO and according to CEO PASDEC the issue of electricity will be resolved in 4 to 5 months.</p>
+<ul>
+<li><strong>Issues of TDAP</strong></li>
+</ul>
+<p>It was discussed in the meeting that Trade Development Authority of Pakistan (TDAP) always provide the information to the Association at 11th hour regarding relevant event or meeting, in result, our members cannot fully participate. This gap needs to be filled.</p>
+<ul>
+<li><strong>Formation of Committees and Nominations of Conveners;</strong></li>
+</ul>
+<p><strong>-HR &amp; Finance Committee:</strong></p>
+<p>Mr. Mian Irfan Zafar (Ex Senior Vice Chairman-APMIA) was nominated as the Convener of HR &amp; Finance Committee.</p>
+<p>Remaining committees will be formed and finalized after the mutual consultation</p>
+<ul>
+<li><strong>APMIA Head Office Bank account signatories.</strong></li>
+</ul>
+<p>APMIA bank account signatory authorities for regular office expenses of Allied Bank Account No. 0010000410380016 with the title of All Pakistan Marble Industries Association will include the following</p>
+<ol>
+<li>M. Irfan Zafar Senior Vice Chairman – APMIA</li>
+<li>M. Abdul Sami Founder Member – APMIA</li>
+<li>M. Shakeel Munir Former Chairman – APMIA</li>
+</ol>
+<p>Any two member’s signature for operation of the above mentioned account is acceptable.</p>
+<ul>
+<li><strong>Membership Certificate of the members in settled areas without income tax return**</strong>?**</li>
+</ul>
+<p>It was brought to the knowledge of the quorum that APMIA membership certificate can be issued to the members located in tax exemption areas but according to the rules it is not possible to issue membership certificate without latest tax return but membership Card can be issued to facilitate the member. All CEC agreed.</p>
+<p>Since no other point was to be discussed, therefore, the meeting ended with a vote of thanks to the Chair.</p>
+<h5><strong>Sincerely Yours,</strong></h5>
+<h5><strong>Secretary General</strong></h5>
+<h5><strong>All Pakistan Marble Industries Association</strong></h5>", "@Page:/Users/amer/Sites/apmia/user/pages/04.news/minutes-of-1st-central-executive-committee-meeting-of-all-pakistan-marble-industries-association-on-october-01-2021", "");
+    }
+    
+    public function ensureSecurityChecked(): void
+    {
+        if ($this->sandbox->isSandboxed($this->source)) {
+            $this->checkSecurity();
+        }
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = [];
+        static $filters = [];
+        static $functions = [];
+        static $tests = [];
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                [],
+                [],
+                $this->source
+            );
+        } catch (SecurityError $e) {
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            } elseif ($e instanceof SecurityNotAllowedTestError && isset($tests[$e->getTestName()])) {
+                $e->setTemplateLine($tests[$e->getTestName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}

@@ -1,0 +1,12 @@
+1792153288
+04.news__SLASH__meeting-with-the-honorable-minister-of-defence-mr-parvez-khattak
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:69:"news/meeting-with-the-honorable-minister-of-defence-mr-parvez-khattak";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:65:"Meeting with the Honorable Minister of Defence Mr. Parvez Khattak";s:4:"date";s:16:"2018-10-30 11:12";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:33:"meeting-with-government-officials";}}}s:11:"frontmatter";s:163:"title: "Meeting with the Honorable Minister of Defence Mr. Parvez Khattak"
+date: "2018-10-30 11:12"
+taxonomy:
+  category:
+    - "meeting-with-government-officials"";s:8:"markdown";s:243:"Mr. Asghar Khan Utmankhel, Member of Central Executive Committee of All Pakistan Marble and had a meeting with the Honorable Minister of Defence Mr. Parvez Khattak regarding the issues of Marble City, Rislpur.
+
+Mr .Parvez Khattak
+
+![](34.jpg)
+";}s:7:"storage";a:6:{s:3:"key";s:69:"news/meeting-with-the-honorable-minister-of-defence-mr-parvez-khattak";s:11:"storage_key";s:72:"04.news/meeting-with-the-honorable-minister-of-defence-mr-parvez-khattak";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"1eb83fe004a7ab367e8c564f0966bab8";}}

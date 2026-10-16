@@ -1,0 +1,54 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{# News listing with category filter + pagination (taxonomy filter comes from the URL: /news/category:press-releases) #}
+{% block content %}
+    {% set cats = config.theme.news_categories %}
+    {% set active_cat = uri.param('category') %}
+    {% set active_label = active_cat ? (cats|filter(c => c.slug == active_cat)|first.label|default(active_cat|replace({'-':' '})|title)) : null %}
+    {% include 'partials/banner.html.twig' with {banner_title: active_label ?: page.title} %}
+
+    {% set all = page.collection() %}
+    {% set per = (page.header.per_page|default(config.theme.news.per_page|default(12)))|round %}
+    {% set total = all|length %}
+    {% set pages_n = max(1, (total / per)|round(0, 'ceil')) %}
+    {% set cur = max(1, min(pages_n, (uri.param('page')|default(1))|round)) %}
+    {% set shown = all|slice((cur - 1) * per, per) %}
+    {% set base = page.url ~ (active_cat ? '/category' ~ config.system.param_sep ~ active_cat : '') %}
+
+    <section class="section">
+        <div class="container">
+            {% if page.content|striptags|trim is not empty and not active_cat and cur == 1 %}
+            <article class="prose prose-intro">{{ page.content|raw }}</article>
+            {% endif %}
+
+            <div class="chips" role="navigation" aria-label="News categories">
+                <a class="chip{{ not active_cat ? ' is-active' : '' }}" href="{{ page.url }}">All news</a>
+                {% for c in cats %}
+                <a class="chip{{ active_cat == c.slug ? ' is-active' : '' }}" href="{{ page.url }}/category{{ config.system.param_sep }}{{ c.slug }}">{{ c.label }}</a>
+                {% endfor %}
+            </div>
+
+            {% if shown|length %}
+            <div class="news-grid">
+                {% for item in shown %}{{ ui.news_card(item, cats, logo_url) }}{% endfor %}
+            </div>
+            {% else %}
+            <p class="empty">No news found in this category yet.</p>
+            {% endif %}
+
+            {% if pages_n > 1 %}
+            <nav class="pagination" aria-label="Pagination">
+                {% if cur > 1 %}<a class="pg" rel="prev" href="{{ base }}{{ cur - 1 > 1 ? '/page' ~ config.system.param_sep ~ (cur - 1) : '' }}" aria-label="Previous page">{{ ui.icon('left') }}</a>{% endif %}
+                {% for n in 1..pages_n %}
+                    {% if n == cur %}<span class="pg is-current" aria-current="page">{{ n }}</span>
+                    {% elseif n == 1 or n == pages_n or (n >= cur - 2 and n <= cur + 2) %}<a class="pg" href="{{ base }}{{ n > 1 ? '/page' ~ config.system.param_sep ~ n : '' }}">{{ n }}</a>
+                    {% elseif n == cur - 3 or n == cur + 3 %}<span class="pg pg-gap">…</span>
+                    {% endif %}
+                {% endfor %}
+                {% if cur < pages_n %}<a class="pg" rel="next" href="{{ base }}/page{{ config.system.param_sep }}{{ cur + 1 }}" aria-label="Next page">{{ ui.icon('right') }}</a>{% endif %}
+            </nav>
+            {% endif %}
+        </div>
+    </section>
+{% endblock %}

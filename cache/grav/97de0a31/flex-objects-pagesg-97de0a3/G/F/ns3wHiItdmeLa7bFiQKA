@@ -1,0 +1,8 @@
+1792153288
+04.news__SLASH__election-results-2017-2018
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:31:"news/election-results-2017-2018";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:26:"Election Results 2017-2018";s:4:"date";s:16:"2017-10-15 16:08";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:9:"elections";}}s:9:"published";b:0;}s:11:"frontmatter";s:117:"title: "Election Results 2017-2018"
+date: "2017-10-15 16:08"
+taxonomy:
+  category:
+    - "elections"
+published: false";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:31:"news/election-results-2017-2018";s:11:"storage_key";s:34:"04.news/election-results-2017-2018";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"cf97a1ed785987f2ebad7f3a83db6136";}}

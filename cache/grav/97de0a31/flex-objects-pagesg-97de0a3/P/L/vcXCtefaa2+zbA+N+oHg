@@ -1,0 +1,11 @@
+1792153288
+04.news__SLASH__a-meeting-with-dg-mines-minerals-kpk
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:41:"news/a-meeting-with-dg-mines-minerals-kpk";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:39:"A meeting with DG Mines & Minerals, KPK";s:4:"date";s:16:"2018-12-18 11:43";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:33:"meeting-with-government-officials";}}}s:11:"frontmatter";s:137:"title: "A meeting with DG Mines & Minerals, KPK"
+date: "2018-12-18 11:43"
+taxonomy:
+  category:
+    - "meeting-with-government-officials"";s:8:"markdown";s:398:"A meeting was held today between Mr. Muntazir Khan, DG Mines & Minerals, KPK and APMIA Executives including Mr. Shakir Ullah, Mr. Muhammad Sabir Khan and other mine owners from FATA region.  
+ The problems regarding Challan books have been resolved and Challan books are issued to the mine owners. DG Mines has assured that he will fully support the mine owners of KPK in future.
+
+![](meeting.png)
+";}s:7:"storage";a:6:{s:3:"key";s:41:"news/a-meeting-with-dg-mines-minerals-kpk";s:11:"storage_key";s:44:"04.news/a-meeting-with-dg-mines-minerals-kpk";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"6cbfc7e7ea682c3429a4557a50f7a285";}}

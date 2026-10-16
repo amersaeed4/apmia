@@ -1,0 +1,8 @@
+1792153288
+04.news__SLASH__important-message-to-stakeholders-from-pakistan-dimension-stone
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:68:"news/important-message-to-stakeholders-from-pakistan-dimension-stone";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:63:"Important message to stakeholders from Pakistan Dimension Stone";s:4:"date";s:16:"2024-05-16 19:34";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:17:"events-activities";}}s:9:"published";b:0;}s:11:"frontmatter";s:162:"title: "Important message to stakeholders from Pakistan Dimension Stone"
+date: "2024-05-16 19:34"
+taxonomy:
+  category:
+    - "events-activities"
+published: false";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:68:"news/important-message-to-stakeholders-from-pakistan-dimension-stone";s:11:"storage_key";s:71:"04.news/important-message-to-stakeholders-from-pakistan-dimension-stone";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"047f9cd5bbf14d2ec460b00fc64d9d34";}}

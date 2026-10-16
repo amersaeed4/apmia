@@ -1,0 +1,23 @@
+title: Section (cards of child pages)
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        appearance:
+          fields:
+            header.list_archive:
+              type: toggle
+              label: List hidden child pages as an archive
+              highlight: 0
+              default: 0
+              options:
+                1: PLUGIN_ADMIN.YES
+                0: PLUGIN_ADMIN.NO
+              validate:
+                type: bool
+            header.archive_title:
+              type: text
+              label: Archive heading
+              placeholder: Archive

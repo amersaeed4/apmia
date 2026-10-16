@@ -1,0 +1,58 @@
+enabled: true
+org:
+  name: All Pakistan Marble Industries Association
+  tagline: Established 1985 · Islamabad
+topbar:
+  show: true
+  address: '1st Floor, Plot # 45, Street # 10, I-9/2 Industrial Area, Islamabad'
+  phone: '+92-345-5239199'
+  email: info@apmia.org.pk
+footer:
+  about: "The authoritative voice of Pakistan's dimension stone sector since 1985, registered with the Directorate General of Trade Organizations (DGTO) under the Federal Ministry of Commerce."
+  contact_title: Here We Are
+  address: '1st Floor, Plot # 45, Street # 10, I-9/2 Industrial Area, Islamabad'
+  phones:
+    - '+92-345-5239199'
+    - '+92-51-4432774'
+    - '+92-51-4433508'
+  emails:
+    - info@apmia.org.pk
+    - apmia.ho@gmail.com
+  hours: 'Monday – Saturday, 10 am – 5 pm'
+  copyright: '© 2026 All Pakistan Marble Industries Association. All Rights Reserved.'
+  powered_by_name: ITlinks
+  powered_by_url: 'https://www.itlinks.com'
+  columns:
+    -
+      title: APMIA
+      links:
+        - { label: Home, url: / }
+        - { label: Research and Development, url: /news/research-and-development }
+        - { label: Gallery, url: /gallery }
+        - { label: Membership, url: /membership }
+        - { label: Contact Us, url: /contact }
+    -
+      title: Organization
+      links:
+        - { label: Top Office Bearers, url: /about/top-office-bearers }
+        - { label: CEC Members, url: /about/cec-members }
+        - { label: X-Chairmen, url: /about/x-chairmen }
+        - { label: Memorandum and Articles of Association, url: /about/memorandum-and-articles-of-association }
+    -
+      title: News
+      links:
+        - { label: CEC Meetings, url: '/news/category:cec-meetings' }
+        - { label: Meeting With Government Officials, url: '/news/category:meeting-with-government-officials' }
+        - { label: Press Releases, url: '/news/category:press-releases' }
+        - { label: Elections, url: '/news/category:elections' }
+        - { label: SROs, url: '/news/category:sros' }
+news:
+  per_page: 12
+news_categories:
+  - { slug: events-activities, label: 'Events & Activities' }
+  - { slug: cec-meetings, label: CEC Meetings }
+  - { slug: meeting-with-government-officials, label: Meetings With Government Officials }
+  - { slug: press-releases, label: Press Releases }
+  - { slug: elections, label: Elections }
+  - { slug: sros, label: SROs }
+  - { slug: general, label: General }

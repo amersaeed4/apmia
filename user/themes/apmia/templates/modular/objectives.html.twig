@@ -1,0 +1,16 @@
+{% import 'macros/ui.html.twig' as ui %}
+{% set h = page.header %}
+<section class="section section-soft">
+    <div class="container">
+        {{ ui.heading(h.title|default('Objectives'), h.eyebrow, h.lead) }}
+        <div class="objective-grid">
+            {% for o in h.items %}
+            <article class="objective">
+                <span class="objective-icon">{{ ui.icon(o.icon|default('mountain')) }}</span>
+                <h3>{{ o.title }}</h3>
+                <p>{{ o.text }}</p>
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</section>

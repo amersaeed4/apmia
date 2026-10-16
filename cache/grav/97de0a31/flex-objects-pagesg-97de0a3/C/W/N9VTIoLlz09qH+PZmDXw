@@ -1,0 +1,12 @@
+1792153288
+04.news__SLASH__press-release-10-01-2019
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:29:"news/press-release-10-01-2019";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:24:"PRESS RELEASE 10-01-2019";s:4:"date";s:16:"2019-01-10 11:08";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:14:"press-releases";}}}s:11:"frontmatter";s:103:"title: "PRESS RELEASE 10-01-2019"
+date: "2019-01-10 11:08"
+taxonomy:
+  category:
+    - "press-releases"";s:8:"markdown";s:64:"![](10-01-2019.jpg)
+
+![](10-01-20192.jpg)
+
+![](10-01-20192.jpg)
+";}s:7:"storage";a:6:{s:3:"key";s:29:"news/press-release-10-01-2019";s:11:"storage_key";s:32:"04.news/press-release-10-01-2019";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"8d946c7165c9783b8b4148e250ed329a";}}

@@ -1,0 +1,8 @@
+1792153288
+04.news__SLASH__sro-488i-2016
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:18:"news/sro-488i-2016";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:15:"SRO 488(I) 2016";s:4:"date";s:16:"2017-10-12 09:50";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:4:"sros";}}}s:11:"frontmatter";s:84:"title: "SRO 488(I) 2016"
+date: "2017-10-12 09:50"
+taxonomy:
+  category:
+    - "sros"";s:8:"markdown";s:39:"[SRO 488I 2016 1](SRO-488I-2016-1.pdf)
+";}s:7:"storage";a:6:{s:3:"key";s:18:"news/sro-488i-2016";s:11:"storage_key";s:21:"04.news/sro-488i-2016";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"f9797f2cfad97b7da609703e72fd3005";}}

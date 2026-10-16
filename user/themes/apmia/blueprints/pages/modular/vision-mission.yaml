@@ -1,0 +1,43 @@
+title: Vision & Mission
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        panels:
+          type: tab
+          title: Panels
+          fields:
+            header.eyebrow:
+              type: text
+              label: Small label
+            header.title:
+              type: text
+              label: Section title
+            header.lead:
+              type: text
+              label: Intro line
+            header.panels:
+              type: list
+              label: Panels
+              style: vertical
+              fields:
+                .icon:
+                  type: select
+                  label: Icon
+                  options:
+                    landmark: Landmark
+                    globe: Globe
+                    mountain: Mountain
+                    users: People
+                    leaf: Leaf
+                    award: Award
+                    handshake: Handshake
+                .title:
+                  type: text
+                  label: Title
+                .text:
+                  type: textarea
+                  rows: 5
+                  label: Text

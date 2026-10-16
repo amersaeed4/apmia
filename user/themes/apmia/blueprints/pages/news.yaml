@@ -1,0 +1,68 @@
+title: News Listing
+extends@: default
+child_type: newsitem
+
+rules:
+  slug:
+    pattern: "[a-z][a-z0-9_-]+"
+    min: 2
+    max: 80
+
+form:
+  fields:
+    tabs:
+      fields:
+        advanced:
+          fields:
+            overrides:
+              fields:
+                header.child_type:
+                  default: newsitem
+        newslist:
+          type: tab
+          title: News Settings
+          fields:
+            header.per_page:
+              type: text
+              label: Items per page
+              placeholder: 12
+              validate:
+                type: int
+                min: 3
+                max: 60
+            header.content.items:
+              type: textarea
+              yaml: true
+              label: Items
+              default: '@self.children'
+              validate:
+                type: yaml
+            header.content.filter.type:
+              type: text
+              label: Only show pages using this template
+              default: newsitem
+            header.content.order.by:
+              type: select
+              label: Order by
+              default: date
+              options:
+                date: Date
+                title: Title
+                folder: Folder
+            header.content.order.dir:
+              type: select
+              label: Order
+              default: desc
+              options:
+                desc: Newest first
+                asc: Oldest first
+            header.content.url_taxonomy_filters:
+              type: toggle
+              label: Allow category filtering from the URL
+              highlight: 1
+              default: 1
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool

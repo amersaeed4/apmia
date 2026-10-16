@@ -1,0 +1,5 @@
+1792153289
+03.elections-2026-2028__SLASH__03.voters-list-2026-2027-associate
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:51:"elections-2026-2028/voters-list-2026-2027-associate";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:33:"Voters List 2026-2027 (Associate)";s:4:"file";s:58:"Voters-List-2026-2027-Associate.xls-Compatibility-Mode.pdf";s:5:"embed";b:1;}s:11:"frontmatter";s:121:"title: "Voters List 2026-2027 (Associate)"
+file: "Voters-List-2026-2027-Associate.xls-Compatibility-Mode.pdf"
+embed: true";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:51:"elections-2026-2028/voters-list-2026-2027-associate";s:11:"storage_key";s:57:"03.elections-2026-2028/03.voters-list-2026-2027-associate";s:8:"template";s:8:"document";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"document";i:1792151585;}}s:8:"checksum";s:32:"fda6d91fc13372e2ac7482fcf4f25fa4";}}

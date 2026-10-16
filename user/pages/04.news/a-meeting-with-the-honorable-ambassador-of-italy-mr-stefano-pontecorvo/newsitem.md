@@ -1,0 +1,30 @@
+---
+title: "A meeting with the Honorable Ambassador of Italy Mr. Stefano Pontecorvo"
+date: "2019-01-25 10:18"
+taxonomy:
+  category:
+    - "meeting-with-government-officials"
+---
+
+A meeting of APMIA representatives including Mr. Mian Gulzar Ahmad (Chairman APMIA), Mr. Muhammad Saleem (Ex-Chairman APMIA), Mr. Farrukh Majeed (Executive Committee Member APMIA), Mr. Shoaib Hamid (Corporate Member APMIA) and Mr. Muhammad Ajmal Shahid (Corporate Member-APMIA) with the Honorable Ambassador of Italy Mr. Stefano Pontecorvo and the Commercial Counselor in Embassy of Italy, Islamabad.
+
+The points which were highlighted by APMIA representatives are hereunder;
+
+1. Bilateral Trade.
+1. Joint Venture between APMIA and Italian Marble Association and conduct B2B meetings.
+1. Transfer of technology for mining and processing.
+1. As our sector requires machinery with latest technology, ask them for the Italian machinery for marble mining and processing.
+1. Common facilitating center and training center in Pakistan along with the Export Processing Unit.
+1. To form APMIA delegation to visit Italy and invite Italian delegation to Pakistan.
+
+His Excellency appreciated the visit of APMIA delegation to Embassy of Italy to promote the bilateral trade relation between Italy and Pakistan and he mentioned about the legal base agreement with trade development Authority of Pakistan (TDAP), marble & mining sector is also included in the agreement and told that initial financing for Small & Medium Entrepreneurs can be made for marble sector starting from USD 100,000.
+
+His Excellency told that involvement of All Pakistan Marble Industries Association (APMIA) will be required in negotiating with Italian Marble Association and a delegation of IMM Carrara will visit Pakistan in March so he will try to arrange a meeting of APMIA representatives with the delegation and will try to invite the president of APMIA’s counterpart Association in Italy to conduct B2B meetings.
+
+H.E mentioned that the technology of Italian machines are highly demanded worldwide and Italy has provided the machines for marble and mining to Brazil and their sector is growing and developing rapidly. Furthermore, he told APMIA representatives that the production of Italy in mining sector is going down because of environmental issues so Italians are focusing in upgrading their machinery from one to two years, so we have used machines to offer which are almost new and we are willing to sale those machinery to Pakistan’s stakeholders at a discount of up to 50 percent.
+
+Commercial Counselor mentioned that as Pakistan is in the building phase and there are numerous clients in Pakistan for construction material including marble. His Excellency further told that the procedure of Common Facilitating Center is already in process and they are agreed unless a building for the Center of Excellency in Pakistan can be provided close to the places where marble is required and the Commercial Counselor told that they will finance one center in terms of machinery and experienced trainers because the basic aim of this center provide courses / trainings to the persons who are already in the job so they can learn about the technique to value the product and art of increasing the value of exports. Moreover, H.E also said that he will try to include the machinery pools from the Association of both countries
+
+His Excellency told that he will try to organize a visit of APMIA delegation through Italian Trade Agency for Italian Marble and Mining Fairs which can be sponsored by Italian government and he will try to form a delegation of Italian Businessmen from marble sector to visit Pakistan.
+
+![](5.png)

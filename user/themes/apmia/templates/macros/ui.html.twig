@@ -1,0 +1,61 @@
+{# Small UI helpers shared across templates #}
+
+{% macro icon(name, cls) %}<svg class="icon {{ cls }}" aria-hidden="true" focusable="false"><use href="#i-{{ name|default('mountain') }}"/></svg>{% endmacro %}
+
+{# Section heading: eyebrow + title + optional lead #}
+{% macro heading(title, eyebrow, lead, align) %}
+<header class="section-head{{ align == 'left' ? ' is-left' : '' }}">
+    {% if eyebrow %}<span class="eyebrow">{{ eyebrow }}</span>{% endif %}
+    <h2>{{ title }}</h2>
+    {% if lead %}<p class="lead">{{ lead }}</p>{% endif %}
+</header>
+{% endmacro %}
+
+{# Person card used on listings and on the home page #}
+{% macro person_card(p) %}
+{% set h = p.header %}
+{% set photo = h.photo ? p.media[h.photo] : null %}
+{% if not photo %}{% set photo = p.media.images|first %}{% endif %}
+<article class="person-card">
+    <a class="person-photo" href="{{ p.url }}" tabindex="-1" aria-hidden="true">
+        {% if photo %}
+            {{ photo.cropZoom(480, 540).quality(82).html(p.title, '', '')|raw }}
+        {% else %}
+            <span class="person-initial">{{ p.title|replace({'Mr. ':'', 'Mr ':'', 'Dr. ':'', 'Engr. ':'', 'Haji ':'', 'Mian ':''})|first }}</span>
+        {% endif %}
+    </a>
+    <div class="person-body">
+        <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+        {% if h.designation %}<p class="person-role">{{ h.designation }}</p>{% endif %}
+        {% if h.company %}<p class="person-company">{{ h.company }}</p>{% endif %}
+        <ul class="person-meta">
+            {% if h.address %}<li>{{ _self.icon('pin') }}<span>{{ h.address }}</span></li>{% endif %}
+            {% if h.phone %}<li>{{ _self.icon('phone') }}<a href="tel:{{ h.phone|replace({' ':'', '-':''}) }}">{{ h.phone }}</a></li>{% endif %}
+            {% if h.email %}<li>{{ _self.icon('mail') }}<a href="mailto:{{ h.email }}">{{ h.email }}</a></li>{% endif %}
+        </ul>
+    </div>
+</article>
+{% endmacro %}
+
+{# News card #}
+{% macro news_card(p, categories, logo_url) %}
+{% set cover = p.header.image ? p.media[p.header.image] : null %}
+{% if not cover %}{% set cover = p.media.images|first %}{% endif %}
+{% set cats = p.taxonomy.category|default([]) %}
+<article class="news-card">
+    <a class="news-thumb" href="{{ p.url }}" tabindex="-1" aria-hidden="true">
+        {% if cover %}
+            {{ cover.cropZoom(640, 400).quality(80).html(p.title, '', '')|raw }}
+        {% else %}
+            <span class="news-thumb-empty"><img src="{{ logo_url }}" alt="" width="72" height="72" loading="lazy"></span>
+        {% endif %}
+    </a>
+    <div class="news-body">
+        <div class="news-meta">
+            <time datetime="{{ p.date|date('Y-m-d') }}">{{ p.date|date('M j, Y') }}</time>
+            {% if cats|first %}<span class="dot"></span><span>{{ (categories|default([]))|filter(c => c.slug == (cats|first))|first.label|default((cats|first)|replace({'-':' '})|title) }}</span>{% endif %}
+        </div>
+        <h3><a href="{{ p.url }}">{{ p.title }}</a></h3>
+    </div>
+</article>
+{% endmacro %}

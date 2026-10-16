@@ -1,0 +1,18 @@
+{% import 'macros/ui.html.twig' as ui %}
+{% set h = page.header %}
+{% set custom_logo = config.theme.custom_logo is iterable and config.theme.custom_logo|length > 0 ? (config.theme.custom_logo|first).name : null %}
+{% set logo_url = custom_logo ? url('theme://images/logo/' ~ custom_logo) : url('theme://images/apmia-logo.png') %}
+{% set src = page.find(h.source|default('/news')) %}
+{% set cats = config.theme.news_categories %}
+<section class="section section-soft">
+    <div class="container">
+        {{ ui.heading(h.title|default('Latest News'), h.eyebrow, h.lead) }}
+        {% if src %}
+        {% set items = src.children|filter(c => c.template == 'newsitem' and c.published)|sort((a, b) => b.date <=> a.date)|slice(0, h.limit|default(6)) %}
+        <div class="news-grid">
+            {% for item in items %}{{ ui.news_card(item, cats, logo_url) }}{% endfor %}
+        </div>
+        <p class="center"><a class="btn" href="{{ src.url }}">{{ h.button_label|default('All news') }} {{ ui.icon('arrow') }}</a></p>
+        {% endif %}
+    </div>
+</section>

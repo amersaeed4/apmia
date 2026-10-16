@@ -1,0 +1,15 @@
+1792153277
+02.about
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:5:"about";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:5:"About";s:4:"menu";s:5:"About";}s:11:"frontmatter";s:28:"title: "About"
+menu: "About"";s:8:"markdown";s:2049:"**Established in 1985**, the All Pakistan Marble Industries Association (APMIA) serves as the pivotal link connecting government bodies and industry stakeholders in the dimension stone sector. Recognized as the exclusive registered association by the Directorate General of Trade Organizations (DGTO) under Pakistan's Ministry of Commerce, APMIA proudly represents the entire dimension stone value chain, including marble and granite. This encompassing representation spans crucial areas such as mining, transportation, processing, showrooms, and exports.
+
+With a nearly four-decade legacy, APMIA consistently demonstrates its commitment to addressing industry challenges while actively contributing to sectoral growth. Over the years, APMIA has adeptly navigated intricate matters, including negotiations on tax-related issues like GST, customs, and royalties. In a significant milestone, APMIA played a pivotal role in establishing the Pakistan Stone Development Company (PASDEC) in 2006, championing the advancement of the dimension stone sector.
+
+Beyond its advocacy and regulatory roles, APMIA proactively drives industry progress. It organizes seminars, conducts training programs, and hosts expos that empower stakeholders with knowledge and insights essential for success in the dynamic dimension stone sector. Furthermore, APMIA fosters collaboration with academia and partners with relevant local and international organizations, providing access to cutting-edge research, technology, and global best practices. These initiatives bolster the industry's competitiveness and enduring growth.
+
+As the authoritative voice of the sector, APMIA remains steadfast in its mission to promote collaboration, advocate for industry interests, and facilitate sustainable growth. Its unwavering dedication aligns with Pakistan's economic objectives and development aspirations, positioning APMIA as an indispensable driver of prosperity and success in the dimension stone sector.
+
+![](apmia-pak-m-g-estimate.jpeg)
+
+![](apmia-stone-export-history1.jpeg)
+";}s:7:"storage";a:7:{s:3:"key";s:5:"about";s:11:"storage_key";s:8:"02.about";s:8:"template";s:7:"section";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"section";i:1792151585;}}s:8:"children";a:9:{s:21:"01.top-office-bearers";b:0;s:14:"02.cec-members";b:0;s:20:"03.corporate-members";b:0;s:20:"04.associate-members";b:0;s:22:"05.standing-committees";b:0;s:13:"06.x-chairmen";b:0;s:41:"07.memorandum-and-articles-of-association";b:0;s:17:"mission-statement";b:0;s:24:"organizational-structure";b:0;}s:8:"checksum";s:32:"2755a3f29da372f485ac4b0e4a489fd6";}}

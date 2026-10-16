@@ -1,0 +1,147 @@
+---
+title: "Minutes of 2nd Central Executive Committee Meeting of All Pakistan Marble Industries Association on November 10, 2021"
+date: "2022-05-16 07:28"
+taxonomy:
+  category:
+    - "cec-meetings"
+---
+
+***Ref No.: APMIA/HO/2021/4334***
+
+***Dated: November 10, 2021***
+
+**AGENDA 2ND CEC MEETING AT APMIA HEAD OFFICE, ISLAMABAD**
+
+The General Elections shall be held by secret ballot during the month of September 2019 and members renewed till 31st March, 2020 are eligible to cast vote.
+
+1. Powers and authorities of CEC members
+1. Responsibilities of a CEC Member
+1. How to pass a resolution from Executive Committee
+1. How an approval can be made from CEC members
+1. Formation of Audit Committee of APMIA
+1. Scope of committees should be defined
+1. Formation of written SOPs for every member / internal office affairs or any other
+1. APMIA processing fee for tax exemption according to the invoice of imported item (Define ratio from benefit amount (exempted amount)) *(Current Fee is Rs. 15,000/-)*
+1. Whether a CEC member should hold any other designation of APMIA like Sub Zonal Vice Chairman or not.
+1. Accommodation expense of Executive Committee Members from out of city
+1. Any other point with the approval of chair
+
+##### **Present****Office Bearers;**
+
+- Shabbir Ahmed Chairman(Industrial Mineral Grinding, Gaddani)
+- Sattar Hussain Shah Senior Chairman(Natural Marble, Islamabad)
+- Farooq Hameed Bhatti Vice Chairman (North)( Reliance Traders, Lahore)
+- Jamshed Khan Amazai Vice Chairman (South)(New Amazai Marble, Karachi)
+
+##### **Central Executive Committee Members;**
+
+1. Sheikh Muhammad Rizwan K-2 Marble Industry, Islamabad
+1. Ilyas Muhammad Resource Industries (Pvt.) Limited, Hattar
+1. Mazhar Ahmed Mazhar Enterprises, Lahore
+1. Ghulam Mustafa Naseeb FMN International Trading, Karachi
+1. Sultan Ul Arifeen Abbas Marble Factory, Mardan
+1. Niaz Amin R.Z Marble, Karachi
+1. Muhammad Shifa Chaudhary Marble, Gujranwala
+1. Ilyas Khan Koh e Moor Mining Company, Mohmand
+1. Inayat U Rehman Rehman City Marble, Karachi
+1. Zeeshan Azam Natural Marble Industry, Gujranwala
+1. Muhammad Afzal Shahid K-2 Corporation, Rawat
+1. Imtiaz Khan Stone Age Granite, Hattar
+1. Shakir Ullah Pak Marble Industry, Shabqadar
+
+##### Secretary General:
+
+##### **Syed Masud Gillani**
+
+##### Central Executive Committee Members on Leave:
+
+1. Jamshed Khan Amazai (New Amazai Marble, Karachi(Vice Chairman – South))
+1. Ilyas Khan (Koh e Moor Mining Company, Mohmand)
+1. Niaz Amin (R.Z Marble, Karachi)
+1. Inayat Ur Rehman (Rehman City Marble, Karachi)
+1. Mustafa Naseeb (FMN International Trading, Karachi)
+1. Shakir Ullah (Pak Marble Industry, Shabqadar)
+1. Umair Sajjad (Huzaifa Marble & Granite, Taxila)
+
+##### Absent Central Executive Committee Members:
+
+1. Sher Ahmed Khanzada (SAK International Corporation, Karachi)
+1. Asim Ahmed (Israr & Sons Industries (Pvt.) Limited, Karachi)
+1. Muhammad Irsal Khan (Pak National Marble, Mardan)
+1. Ali Ahmed Khan (Value Plus, Gaddani)
+1. Arshad Mehmood (Siran Marble, Rawalpindi)
+1. Abdul Karim (New Abdullah Marble, Rawalpindi)
+1. Arshad Mehmood Awais (Chakwal Stone, Rawalpindi)
+1. Muhammad Shifa (Chaudhary Marble & Granite, Gujranwala)
+1. Zeeshan Azam (Natural Marble Industry, Gujranwala)
+
+The Second Executive Committee Meeting for the year 2021-2022 began with recitation of few verses from Holy Quran, Chairman APMIA Mr. Shabbir Ahmed welcomed the executive committee members and other participants. Formal proceeding of the meeting began and following agenda items were discussed in detail;
+
+- **Powers and Authorities of CEC Members**
+
+Secretary General APMIA briefed the committee about the powers and functions of the Executive Committee that to continue and manage affairs of the association, to appoint standing committee or Sub Committee for any purpose and to frame such rules and regulations or By Laws in this regard may demand it and to delegate its powers to any standing committee or Sub Committee. Central Executive Committee is the governing body of an association to carry out aims and objectives of the association in accordance to the Memorandum and Articles of Association.
+
+- **Responsibilities of a CEC member**
+
+Chairman APMIA, Mr. Shabbir Ahmed drew the attention of the committee that every CEC should perform his duties and CEC should be functional and responsibilities of a CEC member should be divided. To form clusters and we should adopt the procedure of electing a CEC member from each cluster, and criteria of electing an executive committee member should be defined and support of every CEC member will be required to manage the affairs of the association in a proper manner.
+
+Mr. Muhammad Saleem Mughal added that there is a lack of interest of the people for which we should provide awareness so that the association can be strengthened.
+
+Mr. Muhammad Afzal Shahid further added that awareness is a major factor, by doing so, interest can be created amongst the members and those who are interested should also deliver until they are promoted, moreover, he mentioned that we should define the rules and regulations and SOPs should also be defined for a CEC member.
+
+- **How to pass a resolution from Executive Committee**
+- **How an approval can be made from CEC members**
+
+It was mutually agreed by the committee that for anything where the approval of the Central Executive Committee is required, electronic purpose can be used for the approval.
+
+- **Formation of Audit Committee of APMIA**
+
+Chairman APMIA suggested that an internal audit committee is required not limited to the financial audit, the committee will also perform its duties on internal office functional audit and will present the recommendations to the Central Executive Committee for the further implementations.
+
+All CEC members gave their consent in favor of formation of Audit Committee APMIA. Furthermore, CEC agreed that Chairman APMIA can nominate any two or three competent members for the said committee.
+
+- **Scope of Committees**
+
+It was discussed in the meeting that the scope of APMIA must be defined, therefore, it was mutually agreed that every committee of APMIA which are formed will provide their quarterly progress report to the Central Executive Committee including recommendations concerning the committee for necessary action.
+
+- **Formation of written SOPs for every member / internal office affairs or any other.**
+
+All CEC agreed for the formation of written SOPs for every member including internal office activities so that the affairs of the association can be smoothened and things can be improved.
+
+- **APMIA processing fee for Tax Exemption according to the invoice of imported items**
+
+It was brought to the knowledge of the committee that current fee for APMIA processing for Tax Exemption cases is Rs. 15,000/- on the imported items related to the stone work in accordance to the Fifth Schedule of Customs Act, 1969.
+
+Keeping in view, it was mutually agreed and decided that minimum fee will remain Rs. 15,000/- but if according to the commercial invoice of imported goods the benefited amount exceeds from Rs. 15,000/-, 5 percent of the benefited amount will be charged as APMIA Processing fee for Tax Exemption from the members.
+
+- **Whether a CEC member should hold any other designation like Sub Zonal Vice Chairman or not.**
+
+This question was raised in the meeting that whether a Executive Committee member of APMIA can hold any other designation like Sub Zonal Vice chairman or not. In this regard, committee members mentioned that it is possible that a CEC member can be designated as a Sub Zonal Vice Chairman of the cluster if no other member is willing for this designation in the specific cluster.
+
+- **Accommodation expense of Executive Committee Members from out of city.**
+
+It was told to the committee that Association only bears the accommodation expense of the Executive Committee member from out of city at the time of Annual General Meeting on September every year.
+
+It was mutually agreed that every CEC member will bear his accommodation expenses on their own.
+
+- **Any other point with the approval of chair.**
+
+**11.1 FPCCI nominations**
+
+It was mutually agreed by the Central Executive Committee to include this point of nominations for FPCCI in the agenda of First CEC meeting of APMIA every year and the way forward should be defined to avoid any conflicts in future.
+
+**11.2 Sales Tax Issues**
+
+Secretary General APMIA was instructed to provide the pervious correspondence of APMIA Tax Committee to the current Convener of Tax Committee Mr. Imtiaz Khan so that the present tax committee can take up the issues further according to the recommendations of previous tax committee of APMIA.
+
+**11.3 Holding Executive Committee meeting through video link.**
+
+It was mentioned in the meeting that it is difficult to conduct executive committee meeting as often as needed due to distance between north and south zone. Therefore, it was suggested that an arrangement should be made to conduct these meetings through video link. The Association should provide all necessary facilities to conduct such meetings at both Head Office and Zonal Offices. Furthermore, Secretary General APMIA was asked to present two or three quotations for the complete setup of video link and present it to the CEC for the approval.
+
+Since no other point was to be discussed, therefore, the meeting ended with a vote of thanks to the Chair.
+
+##### **Thanks & Regards,**
+
+##### **Secretary General**
+
+##### **All Pakistan Marble Industries Association**

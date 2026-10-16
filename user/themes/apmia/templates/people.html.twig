@@ -1,0 +1,29 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{# Listing of person pages (office bearers, CEC members, chairmen…) #}
+{% block content %}
+    {% include 'partials/banner.html.twig' %}
+    {% set persons = page.children|filter(c => c.template == 'person' and c.published) %}
+    {% set others = page.children|filter(c => c.template != 'person' and c.published)|sort((a, b) => b.title <=> a.title) %}
+    <section class="section">
+        <div class="container">
+            {% if page.content|striptags|trim is not empty %}
+            <article class="prose prose-intro">{{ page.content|raw }}</article>
+            {% endif %}
+
+            {% if persons|length %}
+            <div class="people-grid">
+                {% for p in persons %}{{ ui.person_card(p) }}{% endfor %}
+            </div>
+            {% endif %}
+
+            {% if others|length %}
+            <h2 class="archive-title">{{ page.header.archive_title|default('Previous terms') }}</h2>
+            <ul class="archive-list">
+                {% for c in others %}<li><a href="{{ c.url }}">{{ ui.icon('file') }}<span>{{ c.title }}</span></a></li>{% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </section>
+{% endblock %}

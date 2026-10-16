@@ -1,0 +1,4 @@
+1792153288
+04.news__SLASH__01.research-and-development
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:29:"news/research-and-development";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:24:"Research and Development";s:4:"menu";s:5:"R & D";}s:11:"frontmatter";s:47:"title: "Research and Development"
+menu: "R & D"";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:29:"news/research-and-development";s:11:"storage_key";s:35:"04.news/01.research-and-development";s:8:"template";s:7:"section";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"section";i:1792151585;}}s:8:"children";a:5:{s:36:"01.a-generic-stone-quarry-financials";b:0;s:39:"02.financial-feasibility-mining-project";b:0;s:52:"03.machinery-for-marble-granite-and-stone-processing";b:0;s:45:"04.all-pakistan-marble-industries-association";b:0;s:20:"05.association-apmia";b:0;}s:8:"checksum";s:32:"da4d2e5b8f4a866270752f4093ea824e";}}

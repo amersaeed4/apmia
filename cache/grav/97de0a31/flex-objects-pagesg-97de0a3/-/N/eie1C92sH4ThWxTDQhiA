@@ -1,0 +1,12 @@
+1792153288
+04.news__SLASH__meeting-with-chairman-senior-vice-chairman-executive-members
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:65:"news/meeting-with-chairman-senior-vice-chairman-executive-members";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:63:"Meeting with Chairman, Senior Vice Chairman & Executive Members";s:4:"date";s:16:"2018-11-13 12:51";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:7:"general";}}}s:11:"frontmatter";s:135:"title: "Meeting with Chairman, Senior Vice Chairman & Executive Members"
+date: "2018-11-13 12:51"
+taxonomy:
+  category:
+    - "general"";s:8:"markdown";s:457:"Second meeting including Chairman, Senior Vice Chairman and other executive members of APMIA was conducted with Mr. Allauddin Marri, member APMIA (Presidential candidate of FPCCI for the year 2019) including Mr. Mian Zahid Hussain, Senior Vice Chairman of Businessmen Panel Pakistan (BMP).
+
+Mr. Allauddin Marri briefed his visions / objectives / plan of activities regarding promoting marble sector, especially in mining sector in Balochistan.
+
+![](45.jpg)
+";}s:7:"storage";a:6:{s:3:"key";s:65:"news/meeting-with-chairman-senior-vice-chairman-executive-members";s:11:"storage_key";s:68:"04.news/meeting-with-chairman-senior-vice-chairman-executive-members";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"8837274b4fd0859609d71f8b717ca963";}}

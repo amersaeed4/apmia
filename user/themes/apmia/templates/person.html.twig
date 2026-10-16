@@ -1,0 +1,30 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{% block content %}
+    {% set h = page.header %}
+    {% set photo = h.photo ? page.media[h.photo] : page.media.images|first %}
+    {% include 'partials/banner.html.twig' with {banner_sub: h.designation} %}
+    <section class="section">
+        <div class="container">
+            <div class="profile">
+                <div class="profile-photo">
+                    {% if photo %}{{ photo.cropZoom(560, 640).quality(85).html(page.title, '', '')|raw }}{% else %}<span class="person-initial">{{ page.title|replace({'Mr. ':''})|first }}</span>{% endif %}
+                </div>
+                <div class="profile-body">
+                    <h2>{{ page.title }}</h2>
+                    {% if h.designation %}<p class="person-role">{{ h.designation }}</p>{% endif %}
+                    <dl class="profile-facts">
+                        {% if h.company %}<dt>Company</dt><dd>{{ h.company }}</dd>{% endif %}
+                        {% if h.address %}<dt>Business address</dt><dd>{{ h.address }}</dd>{% endif %}
+                        {% if h.term %}<dt>Term</dt><dd>{{ h.term }}</dd>{% endif %}
+                        {% if h.phone %}<dt>Telephone</dt><dd><a href="tel:{{ h.phone|replace({' ':'', '-':''}) }}">{{ h.phone }}</a></dd>{% endif %}
+                        {% if h.email %}<dt>Email</dt><dd><a href="mailto:{{ h.email }}">{{ h.email }}</a></dd>{% endif %}
+                    </dl>
+                    {% if page.content|striptags|trim is not empty %}<div class="prose">{{ page.content|raw }}</div>{% endif %}
+                    <p><a class="btn btn-ghost" href="{{ page.parent.url }}">{{ ui.icon('left') }} Back to {{ page.parent.title }}</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,5 @@
+1792153295
+02.about__SLASH__07.memorandum-and-articles-of-association
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:44:"about/memorandum-and-articles-of-association";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:38:"Memorandum and Articles of Association";s:4:"file";s:29:"Memorandum-Articles-APMIA.pdf";s:5:"embed";b:1;}s:11:"frontmatter";s:97:"title: "Memorandum and Articles of Association"
+file: "Memorandum-Articles-APMIA.pdf"
+embed: true";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:44:"about/memorandum-and-articles-of-association";s:11:"storage_key";s:50:"02.about/07.memorandum-and-articles-of-association";s:8:"template";s:8:"document";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"document";i:1792151585;}}s:8:"checksum";s:32:"a9fee8ba6c5daeee176888d978ec9486";}}

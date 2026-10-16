@@ -1,0 +1,26 @@
+1792153286
+05.gallery__SLASH__02.mosaic-tiles-gallery
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:28:"gallery/mosaic-tiles-gallery";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:20:"Mosaic Tiles Gallery";s:4:"menu";s:12:"Mosaic Tiles";s:13:"gallery_items";a:10:{i:0;a:2:{s:5:"image";s:20:"black-and-gold-1.jpg";s:5:"title";s:14:"Black and Gold";}i:1;a:2:{s:5:"image";s:12:"teracota.jpg";s:5:"title";s:8:"Teracota";}i:2;a:2:{s:5:"image";s:16:"Indus-gold-1.jpg";s:5:"title";s:10:"Indus Gold";}i:3;a:2:{s:5:"image";s:18:"Boticina-cream.jpg";s:5:"title";s:14:"Boticina Cream";}i:4;a:2:{s:5:"image";s:18:"brown-travtine.jpg";s:5:"title";s:16:"Brown Travertine";}i:5;a:2:{s:5:"image";s:18:"ziarat-white-1.jpg";s:5:"title";s:12:"Ziarat White";}i:6;a:2:{s:5:"image";s:17:"dark-emprador.jpg";s:5:"title";s:13:"Dark Emprador";}i:7;a:2:{s:5:"image";s:11:"parlino.jpg";s:5:"title";s:7:"Parlino";}i:8;a:2:{s:5:"image";s:17:"black-granite.jpg";s:5:"title";s:13:"Black Granite";}i:9;a:2:{s:5:"image";s:13:"blue-pear.jpg";s:5:"title";s:9:"Blue Pear";}}s:5:"cover";s:20:"black-and-gold-1.jpg";}s:11:"frontmatter";s:651:"title: "Mosaic Tiles Gallery"
+menu: "Mosaic Tiles"
+gallery_items:
+  - image: "black-and-gold-1.jpg"
+    title: "Black and Gold"
+  - image: "teracota.jpg"
+    title: "Teracota"
+  - image: "Indus-gold-1.jpg"
+    title: "Indus Gold"
+  - image: "Boticina-cream.jpg"
+    title: "Boticina Cream"
+  - image: "brown-travtine.jpg"
+    title: "Brown Travertine"
+  - image: "ziarat-white-1.jpg"
+    title: "Ziarat White"
+  - image: "dark-emprador.jpg"
+    title: "Dark Emprador"
+  - image: "parlino.jpg"
+    title: "Parlino"
+  - image: "black-granite.jpg"
+    title: "Black Granite"
+  - image: "blue-pear.jpg"
+    title: "Blue Pear"
+cover: "black-and-gold-1.jpg"";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:28:"gallery/mosaic-tiles-gallery";s:11:"storage_key";s:34:"05.gallery/02.mosaic-tiles-gallery";s:8:"template";s:7:"gallery";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"gallery";i:1792151585;}}s:8:"checksum";s:32:"c76aa2bba2068b2d9099f1fac525bb69";}}

@@ -1,0 +1,8 @@
+1792153288
+04.news__SLASH__1st-cec-meeting-2017-18
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:28:"news/1st-cec-meeting-2017-18";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:31:"1st Cec Meeting Minutes 2017-18";s:4:"date";s:16:"2017-10-21 09:39";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:12:"cec-meetings";}}s:9:"published";b:0;}s:11:"frontmatter";s:125:"title: "1st Cec Meeting Minutes 2017-18"
+date: "2017-10-21 09:39"
+taxonomy:
+  category:
+    - "cec-meetings"
+published: false";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:28:"news/1st-cec-meeting-2017-18";s:11:"storage_key";s:31:"04.news/1st-cec-meeting-2017-18";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"93c7f8db2e2623ceb494469a30dc8b4f";}}

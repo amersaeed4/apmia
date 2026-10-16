@@ -1,0 +1,46 @@
+{% import 'macros/ui.html.twig' as ui %}
+{% set theme = config.theme %}
+{% set custom_logo = theme.custom_logo is iterable and theme.custom_logo|length > 0 ? (theme.custom_logo|first).name : null %}
+{% set logo_url = custom_logo ? url('theme://images/logo/' ~ custom_logo) : url('theme://images/apmia-logo.png') %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% block head %}
+    <meta charset="utf-8">
+    <title>{% if page.title and not page.home %}{{ page.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#07683a">
+    {% include 'partials/metadata.html.twig' %}
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ url('theme://images/favicon.png') }}">
+    <link rel="canonical" href="{{ page.url(true, true) }}">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ url('theme://fonts/roboto-latin.woff2') }}">
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="{{ url('theme://fonts/roboto-condensed-latin.woff2') }}">
+{% endblock %}
+
+{% block stylesheets %}
+    {% do assets.addCss('theme://css/fonts.css', 100) %}
+    {% do assets.addCss('theme://css/theme.css', 90) %}
+{% endblock %}
+    {{ assets.css()|raw }}
+    {% block head_extra %}{% endblock %}
+</head>
+<body class="tpl-{{ page.template|replace({'/':'-'}) }}{% if page.home %} is-home{% endif %} {{ page.header.body_classes }}">
+    {% include 'partials/icons.html.twig' %}
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    {% include 'partials/header.html.twig' %}
+
+    <main id="main">
+    {% block content %}{% endblock %}
+    </main>
+
+    {% include 'partials/footer.html.twig' %}
+
+    {% block javascripts %}
+        {% do assets.addJs('theme://js/theme.js', {group: 'bottom', loading: 'defer'}) %}
+    {% endblock %}
+    {{ assets.js('bottom')|raw }}
+    {% block bottom %}{% endblock %}
+</body>
+</html>

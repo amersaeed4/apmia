@@ -1,0 +1,32 @@
+{% import 'macros/ui.html.twig' as ui %}
+{% set slides = page.header.slides|default([]) %}
+<section class="hero" data-hero data-autoplay="{{ page.header.autoplay|default(6) }}" aria-roledescription="carousel" aria-label="Featured">
+    <div class="hero-track">
+        {% for s in slides %}
+        {% set img = page.media[s.image] %}
+        {% if img %}
+        <div class="hero-slide{{ loop.first ? ' is-active' : '' }}" role="group" aria-roledescription="slide" aria-label="{{ loop.index }} of {{ slides|length }}">
+            {{ img.quality(80).html(s.title ?: '', '', 'hero-img')|raw }}
+            <div class="hero-shade"></div>
+            <div class="container hero-copy">
+                {% if s.eyebrow %}<span class="eyebrow eyebrow-light">{{ s.eyebrow }}</span>{% endif %}
+                {% if s.title %}<h2>{{ s.title }}</h2>{% endif %}
+                {% if s.text %}<p>{{ s.text }}</p>{% endif %}
+                {% if s.button_label and s.button_url %}
+                <a class="btn btn-light" href="{{ s.button_url }}">{{ s.button_label }} {{ ui.icon('arrow') }}</a>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% if slides|length > 1 %}
+    <div class="hero-controls container">
+        <button class="hero-arrow" type="button" data-hero-prev aria-label="Previous slide">{{ ui.icon('left') }}</button>
+        <div class="hero-dots" role="tablist">
+            {% for s in slides %}<button type="button" class="hero-dot{{ loop.first ? ' is-active' : '' }}" aria-label="Go to slide {{ loop.index }}"></button>{% endfor %}
+        </div>
+        <button class="hero-arrow" type="button" data-hero-next aria-label="Next slide">{{ ui.icon('right') }}</button>
+    </div>
+    {% endif %}
+</section>

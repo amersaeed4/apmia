@@ -1,0 +1,23 @@
+title: News Item
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        newsmeta:
+          type: tab
+          title: News Details
+          fields:
+            header.image:
+              type: filepicker
+              label: Cover image
+              preview_images: true
+              help: Shown on news cards. Defaults to the first image on this page.
+            header.taxonomy.category:
+              type: selectize
+              label: Categories
+              help: Use the category slug (e.g. press-releases, events-activities, cec-meetings, meeting-with-government-officials, elections, sros, general).
+              classes: fancy
+              validate:
+                type: commalist

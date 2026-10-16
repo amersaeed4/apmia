@@ -1,0 +1,22 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{# Landing page of galleries: one tile per child gallery #}
+{% block content %}
+    {% include 'partials/banner.html.twig' %}
+    <section class="section">
+        <div class="container">
+            {% if page.content|striptags|trim is not empty %}<article class="prose prose-intro">{{ page.content|raw }}</article>{% endif %}
+            <div class="tile-grid">
+                {% for c in page.children.visible %}
+                {% set cover = c.header.cover ? c.media[c.header.cover] : null %}
+                {% if not cover %}{% set cover = c.media.images|first %}{% endif %}
+                <a class="tile" href="{{ c.url }}">
+                    {% if cover %}{{ cover.cropZoom(640, 480).quality(80).html(c.title, '', '')|raw }}{% endif %}
+                    <span class="tile-label"><strong>{{ c.title }}</strong>{% if c.header.gallery_items %}<small>{{ c.header.gallery_items|length }} photos</small>{% endif %}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{# A landing page that shows its visible child pages as cards (e.g. Elections, About) #}
+{% block content %}
+    {% include 'partials/banner.html.twig' %}
+    <section class="section">
+        <div class="container">
+            {% if page.content|striptags|trim is not empty %}
+            <article class="prose prose-intro">{{ page.content|raw }}</article>
+            {% endif %}
+
+            {% set kids = page.children.visible %}
+            {% if kids|length %}
+            <div class="link-cards">
+                {% for c in kids %}
+                {% set ico = c.header.icon|default(c.template == 'document' ? 'file' : 'arrow') %}
+                <a class="link-card" href="{{ c.url }}">
+                    <span class="link-card-icon">{{ ui.icon(ico) }}</span>
+                    <span class="link-card-text">
+                        <strong>{{ c.title }}</strong>
+                        {% if c.header.summary %}<small>{{ c.header.summary }}</small>{% endif %}
+                    </span>
+                    <span class="link-card-go">{{ ui.icon('arrow') }}</span>
+                </a>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+            {% set hidden_kids = page.children|filter(c => not c.visible and c.published) %}
+            {% if hidden_kids|length and page.header.list_archive %}
+            <h2 class="archive-title">{{ page.header.archive_title|default('Archive') }}</h2>
+            <ul class="archive-list">
+                {% for c in hidden_kids %}<li><a href="{{ c.url }}">{{ ui.icon('file') }}<span>{{ c.title }}</span></a></li>{% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+    </section>
+{% endblock %}

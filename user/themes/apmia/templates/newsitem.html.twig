@@ -1,0 +1,33 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{% block content %}
+    {% set cats = config.theme.news_categories %}
+    {% set my_cats = page.taxonomy.category|default([]) %}
+    {% include 'partials/banner.html.twig' %}
+    <section class="section">
+        <div class="container container-narrow">
+            <div class="article-meta">
+                <span>{{ ui.icon('calendar') }}<time datetime="{{ page.date|date('Y-m-d') }}">{{ page.date|date('F j, Y') }}</time></span>
+                {% for slug in my_cats %}
+                <a class="chip is-small" href="{{ page.parent.url }}/category{{ config.system.param_sep }}{{ slug }}">{{ cats|filter(c => c.slug == slug)|first.label|default(slug|replace({'-':' '})|title) }}</a>
+                {% endfor %}
+            </div>
+
+            <article class="prose article">
+                {{ page.content|raw }}
+            </article>
+
+            {% set more = page.parent.children|filter(c => c.template == 'newsitem' and c.published and c.route != page.route)|sort((a, b) => b.date <=> a.date)|slice(0, 3) %}
+            <p class="back-link"><a class="btn btn-ghost" href="{{ page.parent.url }}">{{ ui.icon('left') }} All news</a></p>
+        </div>
+        {% if more|length %}
+        <div class="container more-news">
+            <h2 class="archive-title">Latest news</h2>
+            <div class="news-grid">
+                {% for item in more %}{{ ui.news_card(item, cats, logo_url) }}{% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </section>
+{% endblock %}

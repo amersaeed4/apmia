@@ -1,0 +1,38 @@
+title: Person
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        person:
+          type: tab
+          title: Person
+          fields:
+            header.photo:
+              type: filepicker
+              label: Photo
+              preview_images: true
+              help: Defaults to the first image on this page.
+            header.designation:
+              type: text
+              label: Designation
+              placeholder: e.g. Chairman
+            header.company:
+              type: text
+              label: Company
+            header.address:
+              type: text
+              label: Business address / city
+            header.phone:
+              type: text
+              label: Telephone
+            header.email:
+              type: text
+              label: Email
+              validate:
+                type: email
+            header.term:
+              type: text
+              label: Term
+              placeholder: e.g. 2024–2026

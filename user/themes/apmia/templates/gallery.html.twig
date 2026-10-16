@@ -1,0 +1,35 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{# A photo gallery. Items come from header.gallery_items; if empty, every image in the page folder is shown #}
+{% block content %}
+    {% include 'partials/banner.html.twig' %}
+    {% set items = page.header.gallery_items|default([]) %}
+    <section class="section">
+        <div class="container">
+            {% if page.content|striptags|trim is not empty %}<article class="prose prose-intro">{{ page.content|raw }}</article>{% endif %}
+            <div class="photo-grid" data-lightbox>
+                {% if items|length %}
+                    {% for it in items %}
+                    {% set img = page.media[it.image] %}
+                    {% if img %}
+                    <figure class="photo">
+                        <a href="{{ img.url }}" data-caption="{{ it.title }}">
+                            {{ img.cropZoom(480, 480).quality(78).html(it.title ?: page.title, '', '')|raw }}
+                        </a>
+                        {% if it.title %}<figcaption>{{ it.title }}</figcaption>{% endif %}
+                    </figure>
+                    {% endif %}
+                    {% endfor %}
+                {% else %}
+                    {% for img in page.media.images %}
+                    <figure class="photo">
+                        <a href="{{ img.url }}">{{ img.cropZoom(480, 480).quality(78).html(page.title, '', '')|raw }}</a>
+                    </figure>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            <p class="back-link"><a class="btn btn-ghost" href="{{ page.parent.url }}">{{ ui.icon('left') }} All galleries</a></p>
+        </div>
+    </section>
+{% endblock %}

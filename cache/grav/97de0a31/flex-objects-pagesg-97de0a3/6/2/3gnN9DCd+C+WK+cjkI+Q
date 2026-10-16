@@ -1,0 +1,10 @@
+1792153288
+04.news__SLASH__a-meeting-at-lcci
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:22:"news/a-meeting-at-lcci";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:17:"A meeting at LCCI";s:4:"date";s:16:"2019-01-04 11:40";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:7:"general";}}}s:11:"frontmatter";s:89:"title: "A meeting at LCCI"
+date: "2019-01-04 11:40"
+taxonomy:
+  category:
+    - "general"";s:8:"markdown";s:498:"A meeting was held at LCCI on Friday with Chairman APMIA Mian Gulzar Ahmad, Vice Chairman Sheikh Iftikhar Rashid, CEC Members including Obaid Sultan and Mazhar Hussain, Ex Vice Chairman Zubair Bhatti, Javed Hayat, Abdul Rasheed including Khadim Hussain (Convener LCCI), Amir Saeed (Co-convener LCCI) regarding import values. The values were decided to present in customs house Karachi on 10 January 2019, with the mutual consent of APMIA representatives, importers and stakeholders.
+
+![](lcci.png)
+";}s:7:"storage";a:6:{s:3:"key";s:22:"news/a-meeting-at-lcci";s:11:"storage_key";s:25:"04.news/a-meeting-at-lcci";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"3e6acccc5ca6a68b4fe446cdc2c0248d";}}

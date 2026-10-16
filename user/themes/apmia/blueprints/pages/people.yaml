@@ -1,0 +1,14 @@
+title: People Listing
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        appearance:
+          fields:
+            header.archive_title:
+              type: text
+              label: Heading for other child pages
+              placeholder: Previous terms
+              help: Child pages that are not people (e.g. older years) are listed under this heading.

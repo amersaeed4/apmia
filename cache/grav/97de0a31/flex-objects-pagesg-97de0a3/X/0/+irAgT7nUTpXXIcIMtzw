@@ -1,0 +1,8 @@
+1792153279
+01.home__SLASH__06._bearers
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:13:"home/_bearers";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:6:{s:5:"title";s:18:"Top Office Bearers";s:4:"menu";s:18:"Top Office Bearers";s:7:"eyebrow";s:10:"Leadership";s:6:"source";s:25:"/about/top-office-bearers";s:5:"limit";i:4;s:12:"button_label";s:23:"View all office bearers";}s:11:"frontmatter";s:161:"title: "Top Office Bearers"
+menu: "Top Office Bearers"
+eyebrow: "Leadership"
+source: "/about/top-office-bearers"
+limit: 4
+button_label: "View all office bearers"";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:13:"home/_bearers";s:11:"storage_key";s:19:"01.home/06._bearers";s:8:"template";s:7:"bearers";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"bearers";i:1792151585;}}s:8:"checksum";s:32:"a63cc88ea431e85c76f5cdc44070fc6e";}}

@@ -1,0 +1,10 @@
+<section class="highlights">
+    <div class="container highlights-inner">
+        {% for it in page.header.items %}
+        <div class="highlight">
+            <strong>{{ it.value }}</strong>
+            <span>{{ it.label }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>

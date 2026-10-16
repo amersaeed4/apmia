@@ -1,0 +1,12 @@
+1792153288
+04.news__SLASH__cec-meeting-3
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:18:"news/cec-meeting-3";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:11:"CEC Meeting";s:4:"date";s:16:"2018-09-19 09:39";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:33:"meeting-with-government-officials";}}}s:11:"frontmatter";s:109:"title: "CEC Meeting"
+date: "2018-09-19 09:39"
+taxonomy:
+  category:
+    - "meeting-with-government-officials"";s:8:"markdown";s:351:"First Central Executive Committee Meeting of newly elected executive committee members including Chairman Mr. Mian Gulzar Ahmed, Senior Vice Chairman Mr. Muhammad Bilal Khan, Vice Chairman Mr. Sheikh Iftikhar Rashid, Zonal Vice Chairman (North) Mr. Muhammad Afzal Shahid, Zonal Vice Chairman (South) Mr. Atiq Ur Rehman Abbasi
+
+![](9.jpg)
+
+![](10.jpg)
+";}s:7:"storage";a:6:{s:3:"key";s:18:"news/cec-meeting-3";s:11:"storage_key";s:21:"04.news/cec-meeting-3";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"901975c340c42950eda252fffb98725a";}}

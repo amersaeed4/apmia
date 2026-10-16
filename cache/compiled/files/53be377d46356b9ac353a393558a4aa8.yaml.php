@@ -1,0 +1,34 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => '/Users/amer/Sites/apmia/user/accounts/gadmin.yaml',
+    'modified' => 1792152697,
+    'size' => 360,
+    'data' => [
+        'state' => 'enabled',
+        'email' => 'mas@amersaeed.com',
+        'fullname' => 'Amer Saeed',
+        'title' => 'Administrator',
+        'access' => [
+            'site' => [
+                'login' => true
+            ],
+            'api' => [
+                'super' => true
+            ]
+        ],
+        'hashed_password' => '$2y$12$vzJSx3rhfo29.iUl0O/p1.y/R1fzIh6mKpyg7.5ozy4jw1eKSy7QS',
+        'created' => 1792149002,
+        'modified' => 1792149002,
+        'avatar' => [
+            
+        ],
+        'twofa_enabled' => false,
+        'twofa_secret' => '',
+        'admin_next' => [
+            'preferences' => [
+                'pagesViewMode' => 'tree'
+            ]
+        ]
+    ]
+];

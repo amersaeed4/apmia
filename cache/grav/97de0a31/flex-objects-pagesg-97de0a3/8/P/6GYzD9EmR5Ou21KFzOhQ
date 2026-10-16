@@ -1,0 +1,8 @@
+1792153288
+04.news__SLASH__press-releases-daily-nawa-i-waqt
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:37:"news/press-releases-daily-nawa-i-waqt";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:36:"Press Releases ( Daily Nawa-I-Waqt )";s:4:"date";s:16:"2019-01-28 10:56";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:14:"press-releases";}}}s:11:"frontmatter";s:115:"title: "Press Releases ( Daily Nawa-I-Waqt )"
+date: "2019-01-28 10:56"
+taxonomy:
+  category:
+    - "press-releases"";s:8:"markdown";s:22:"![](2019-01-28-2.jpg)
+";}s:7:"storage";a:6:{s:3:"key";s:37:"news/press-releases-daily-nawa-i-waqt";s:11:"storage_key";s:40:"04.news/press-releases-daily-nawa-i-waqt";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"91357b2b71c9e50492670b25e26790b6";}}

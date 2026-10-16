@@ -1,0 +1,18 @@
+1792153288
+04.news__SLASH__with-the-support-of-our-dedicated-team-of-experts
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:54:"news/with-the-support-of-our-dedicated-team-of-experts";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:49:"With the support of our dedicated team of experts";s:4:"date";s:16:"2024-07-03 15:00";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:17:"events-activities";}}}s:11:"frontmatter";s:131:"title: "With the support of our dedicated team of experts"
+date: "2024-07-03 15:00"
+taxonomy:
+  category:
+    - "events-activities"";s:8:"markdown";s:346:"With the support of our dedicated team of experts!
+
+1. Marble Quarry Master
+
+2. Marble Technician
+
+3. Marble Craftsman
+
+Six-month crash courses designed to enhance productivity, efficiency, quality, and safety, while ensuring environmental and resource sustainability.
+
+A collaborative effort between NAVTTC and APMIA to enhance competitiveness.
+";}s:7:"storage";a:6:{s:3:"key";s:54:"news/with-the-support-of-our-dedicated-team-of-experts";s:11:"storage_key";s:57:"04.news/with-the-support-of-our-dedicated-team-of-experts";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"e80c34054ea92504b64af6a490cb27ba";}}

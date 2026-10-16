@@ -1,0 +1,10 @@
+{# Lists older/child pages (e.g. previous years) under a page, newest first #}
+{% import 'macros/ui.html.twig' as ui %}
+{% set archive = page.children|filter(c => c.published) %}
+{% if archive|length %}
+    {% set archive = page.header.archive_sort == 'asc' ? archive|sort((a, b) => a.title <=> b.title) : archive|sort((a, b) => b.title <=> a.title) %}
+    <h2 class="archive-title">{{ page.header.archive_title|default('Previous years') }}</h2>
+    <ul class="archive-list">
+        {% for c in archive %}<li><a href="{{ c.url }}">{{ ui.icon('file') }}<span>{{ c.title }}</span></a></li>{% endfor %}
+    </ul>
+{% endif %}

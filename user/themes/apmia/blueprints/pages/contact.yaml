@@ -1,0 +1,31 @@
+title: Contact Page
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        contactinfo:
+          type: tab
+          title: Contact Details
+          fields:
+            header.map_embed:
+              type: textarea
+              label: Google Maps embed URL
+              rows: 3
+              help: Paste only the src="…" URL from the Google Maps "Embed a map" code.
+            header.links_title:
+              type: text
+              label: Links box title
+              placeholder: Important links
+            header.links:
+              type: list
+              label: Important links
+              style: vertical
+              fields:
+                .label:
+                  type: text
+                  label: Label
+                .url:
+                  type: text
+                  label: URL

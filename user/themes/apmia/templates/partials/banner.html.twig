@@ -1,0 +1,23 @@
+{# Page title banner with breadcrumbs. Pass `banner_title` / `banner_sub` to override. #}
+{% set chain = [] %}
+{% set cur = page.parent %}
+{% for i in 1..6 %}
+    {% if cur and not cur.root %}
+        {% set chain = [cur]|merge(chain) %}
+        {% set cur = cur.parent %}
+    {% endif %}
+{% endfor %}
+{% set b_title = banner_title|default(page.title) %}
+{% set b_sub = banner_sub|default(page.header.subtitle) %}
+{% set b_img = page.header.banner_image ? page.media[page.header.banner_image] : null %}
+<section class="page-banner{{ b_img ? ' has-image' : '' }}"{% if b_img %} style="--banner-image:url('{{ b_img.url }}')"{% endif %}>
+    <div class="container">
+        <nav class="crumbs" aria-label="Breadcrumb">
+            <a href="{{ base_url == '' ? '/' : base_url }}">Home</a>
+            {% for c in chain %}<span class="sep">/</span><a href="{{ c.url }}">{{ c.menu }}</a>{% endfor %}
+        </nav>
+        <h1>{{ b_title }}</h1>
+        {% if b_sub %}<p class="banner-sub">{{ b_sub }}</p>{% endif %}
+        {% block banner_extra %}{% endblock %}
+    </div>
+</section>

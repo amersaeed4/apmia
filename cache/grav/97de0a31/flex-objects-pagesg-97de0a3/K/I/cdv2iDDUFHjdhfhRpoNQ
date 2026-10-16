@@ -1,0 +1,28 @@
+1792153286
+05.gallery__SLASH__03.onyx-gallery
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:20:"gallery/onyx-gallery";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:12:"Onyx Gallery";s:4:"menu";s:4:"Onyx";s:13:"gallery_items";a:11:{i:0;a:2:{s:5:"image";s:10:"traver.jpg";s:5:"title";s:6:"Traver";}i:1;a:2:{s:5:"image";s:13:"pink-onyx.jpg";s:5:"title";s:9:"Pink Onyx";}i:2;a:2:{s:5:"image";s:15:"pearl-white.jpg";s:5:"title";s:11:"Pearl White";}i:3;a:2:{s:5:"image";s:15:"multi-green.jpg";s:5:"title";s:11:"Multi Green";}i:4;a:2:{s:5:"image";s:14:"mist-green.jpg";s:5:"title";s:10:"Mist Green";}i:5;a:2:{s:5:"image";s:16:"medium-green.jpg";s:5:"title";s:12:"Medium Green";}i:6;a:2:{s:5:"image";s:15:"light-green.jpg";s:5:"title";s:11:"Light Green";}i:7;a:2:{s:5:"image";s:13:"ice-white.jpg";s:5:"title";s:9:"Ice White";}i:8;a:2:{s:5:"image";s:14:"dark-green.jpg";s:5:"title";s:10:"Dark Green";}i:9;a:2:{s:5:"image";s:15:"bianco-gold.jpg";s:5:"title";s:11:"Bianco Gold";}i:10;a:2:{s:5:"image";s:10:"bianco.jpg";s:5:"title";s:6:"Bianco";}}s:5:"cover";s:10:"traver.jpg";}s:11:"frontmatter";s:633:"title: "Onyx Gallery"
+menu: "Onyx"
+gallery_items:
+  - image: "traver.jpg"
+    title: "Traver"
+  - image: "pink-onyx.jpg"
+    title: "Pink Onyx"
+  - image: "pearl-white.jpg"
+    title: "Pearl White"
+  - image: "multi-green.jpg"
+    title: "Multi Green"
+  - image: "mist-green.jpg"
+    title: "Mist Green"
+  - image: "medium-green.jpg"
+    title: "Medium Green"
+  - image: "light-green.jpg"
+    title: "Light Green"
+  - image: "ice-white.jpg"
+    title: "Ice White"
+  - image: "dark-green.jpg"
+    title: "Dark Green"
+  - image: "bianco-gold.jpg"
+    title: "Bianco Gold"
+  - image: "bianco.jpg"
+    title: "Bianco"
+cover: "traver.jpg"";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:20:"gallery/onyx-gallery";s:11:"storage_key";s:26:"05.gallery/03.onyx-gallery";s:8:"template";s:7:"gallery";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"gallery";i:1792151585;}}s:8:"checksum";s:32:"264ec727d230d86b3a321071ba21b602";}}

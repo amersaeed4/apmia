@@ -1,0 +1,13 @@
+1792153279
+01.home__SLASH__02._highlights
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:16:"home/_highlights";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:10:"Highlights";s:4:"menu";s:10:"Highlights";s:5:"items";a:4:{i:0;a:2:{s:5:"value";s:4:"1985";s:5:"label";s:33:"Established, registered with DGTO";}i:1;a:2:{s:5:"value";s:5:"1,400";s:5:"label";s:17:"Mines (estimated)";}i:2;a:2:{s:5:"value";s:5:"2,334";s:5:"label";s:21:"Factories (estimated)";}i:3;a:2:{s:5:"value";s:6:"4,000+";s:5:"label";s:21:"Showrooms (estimated)";}}}s:11:"frontmatter";s:269:"title: "Highlights"
+menu: "Highlights"
+items:
+  - value: "1985"
+    label: "Established, registered with DGTO"
+  - value: "1,400"
+    label: "Mines (estimated)"
+  - value: "2,334"
+    label: "Factories (estimated)"
+  - value: "4,000+"
+    label: "Showrooms (estimated)"";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:16:"home/_highlights";s:11:"storage_key";s:22:"01.home/02._highlights";s:8:"template";s:10:"highlights";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:10:"highlights";i:1792151585;}}s:8:"checksum";s:32:"795e7853580ec2f884fc58bb615b4122";}}

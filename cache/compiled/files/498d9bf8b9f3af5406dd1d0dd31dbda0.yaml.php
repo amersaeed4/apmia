@@ -1,0 +1,42 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => '/Users/amer/Sites/apmia/user/themes/apmia/blueprints/pages/default.yaml',
+    'modified' => 1792151310,
+    'size' => 799,
+    'data' => [
+        'title' => 'Standard Page',
+        'extends@' => 'default',
+        'form' => [
+            'fields' => [
+                'tabs' => [
+                    'fields' => [
+                        'appearance' => [
+                            'type' => 'tab',
+                            'title' => 'Page Banner',
+                            'fields' => [
+                                'header.subtitle' => [
+                                    'type' => 'text',
+                                    'label' => 'Subtitle',
+                                    'help' => 'Optional line shown under the page title in the green banner.'
+                                ],
+                                'header.banner_image' => [
+                                    'type' => 'filepicker',
+                                    'label' => 'Banner background image',
+                                    'help' => 'Optional. Pick an image uploaded to this page.',
+                                    'preview_images' => true
+                                ],
+                                'header.archive_title' => [
+                                    'type' => 'text',
+                                    'label' => 'Heading for child pages list',
+                                    'placeholder' => 'Previous years',
+                                    'help' => 'If this page has child pages (e.g. older years) they are listed under this heading.'
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+];

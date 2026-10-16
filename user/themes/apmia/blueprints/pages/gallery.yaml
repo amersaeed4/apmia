@@ -1,0 +1,29 @@
+title: Photo Gallery
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        photos:
+          type: tab
+          title: Photos
+          fields:
+            header.cover:
+              type: filepicker
+              label: Cover image
+              preview_images: true
+              help: Shown on the Gallery landing page. Defaults to the first image.
+            header.gallery_items:
+              type: list
+              label: Photos
+              help: Upload images on this page first, then add them here with a title. If this list is empty, every uploaded image is shown.
+              style: vertical
+              fields:
+                .image:
+                  type: filepicker
+                  label: Image
+                  preview_images: true
+                .title:
+                  type: text
+                  label: Title

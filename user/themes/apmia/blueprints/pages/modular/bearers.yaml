@@ -1,0 +1,38 @@
+title: People Highlight
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        people:
+          type: tab
+          title: Section
+          fields:
+            header.eyebrow:
+              type: text
+              label: Small label
+            header.title:
+              type: text
+              label: Section title
+              default: Top Office Bearers
+            header.lead:
+              type: text
+              label: Intro line
+            header.source:
+              type: text
+              label: Page to pull people from
+              default: /about/top-office-bearers
+              help: The route of a People Listing page. Its person pages are shown here automatically.
+            header.limit:
+              type: text
+              label: How many to show
+              default: 4
+              validate:
+                type: int
+                min: 1
+                max: 12
+            header.button_label:
+              type: text
+              label: Button label
+              default: View all

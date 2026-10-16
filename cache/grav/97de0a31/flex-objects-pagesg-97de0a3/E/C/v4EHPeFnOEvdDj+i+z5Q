@@ -1,0 +1,28 @@
+1792153288
+04.news__SLASH__press-releases
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:19:"news/press-releases";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:14:"Press Releases";s:4:"date";s:16:"2025-01-25 15:19";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:14:"press-releases";}}}s:11:"frontmatter";s:93:"title: "Press Releases"
+date: "2025-01-25 15:19"
+taxonomy:
+  category:
+    - "press-releases"";s:8:"markdown";s:363:"![](2025-01-10.jpeg)
+
+![](2025-01-09-2.jpeg)
+
+![](2025-01-09-3.jpeg)
+
+![](WhatsApp-Image-2025-01-21-at-11.30.36.jpeg)
+
+![](WhatsApp-Image-2025-01-21-at-11.30.36-1.jpeg)
+
+![](WhatsApp-Image-2025-01-21-at-11.30.37.jpeg)
+
+![](WhatsApp-Image-2025-01-21-at-11.30.37-1.jpeg)
+
+![](2025-01-21.jpeg)
+
+![](2025-01-21-4.jpeg)
+
+![](2025-01-21-2.jpeg)
+
+![](2025-01-21-3.jpeg)
+";}s:7:"storage";a:6:{s:3:"key";s:19:"news/press-releases";s:11:"storage_key";s:22:"04.news/press-releases";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"4585b79137931d2a439cd451669da626";}}

@@ -1,0 +1,230 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => '/Users/amer/Sites/apmia/user/themes/apmia/blueprints.yaml',
+    'modified' => 1792150696,
+    'size' => 5555,
+    'data' => [
+        'name' => 'APMIA',
+        'slug' => 'apmia',
+        'type' => 'theme',
+        'version' => '1.0.0',
+        'description' => 'Custom theme for the All Pakistan Marble Industries Association — fully editable pages, sections, navigation and footer.',
+        'icon' => 'building-columns',
+        'author' => [
+            'name' => 'ITlinks',
+            'url' => 'https://www.itlinks.com'
+        ],
+        'license' => 'MIT',
+        'compatibility' => [
+            'grav' => [
+                0 => '2.1'
+            ]
+        ],
+        'dependencies' => [
+            0 => [
+                'name' => 'grav',
+                'version' => '>=2.1.0'
+            ]
+        ],
+        'form' => [
+            'validation' => 'loose',
+            'fields' => [
+                'tabs' => [
+                    'type' => 'tabs',
+                    'active' => 1,
+                    'fields' => [
+                        'general' => [
+                            'type' => 'tab',
+                            'title' => 'General',
+                            'fields' => [
+                                'org_section' => [
+                                    'type' => 'section',
+                                    'title' => 'Organisation',
+                                    'underline' => true
+                                ],
+                                'org.name' => [
+                                    'type' => 'text',
+                                    'label' => 'Organisation name',
+                                    'help' => 'Shown in the header next to the logo.',
+                                    'default' => 'All Pakistan Marble Industries Association'
+                                ],
+                                'org.tagline' => [
+                                    'type' => 'text',
+                                    'label' => 'Header tagline',
+                                    'help' => 'Small line under the organisation name in the header.',
+                                    'default' => 'Established 1985 · Islamabad'
+                                ],
+                                'custom_logo' => [
+                                    'type' => 'file',
+                                    'label' => 'Logo',
+                                    'help' => 'Replaces the default logo. Square PNG, WebP or SVG works best.',
+                                    'destination' => 'theme://images/logo',
+                                    'multiple' => false,
+                                    'accept' => [
+                                        0 => 'image/*'
+                                    ]
+                                ],
+                                'topbar_section' => [
+                                    'type' => 'section',
+                                    'title' => 'Top bar',
+                                    'underline' => true
+                                ],
+                                'topbar.show' => [
+                                    'type' => 'toggle',
+                                    'label' => 'Show top bar',
+                                    'highlight' => 1,
+                                    'default' => 1,
+                                    'options' => [
+                                        1 => 'PLUGIN_ADMIN.ENABLED',
+                                        0 => 'PLUGIN_ADMIN.DISABLED'
+                                    ],
+                                    'validate' => [
+                                        'type' => 'bool'
+                                    ]
+                                ],
+                                'topbar.address' => [
+                                    'type' => 'text',
+                                    'label' => 'Address',
+                                    'default' => '1st Floor, Plot # 45, Street # 10, I-9/2 Industrial Area, Islamabad'
+                                ],
+                                'topbar.phone' => [
+                                    'type' => 'text',
+                                    'label' => 'Phone',
+                                    'default' => '+92-345-5239199'
+                                ],
+                                'topbar.email' => [
+                                    'type' => 'text',
+                                    'label' => 'Email',
+                                    'default' => 'info@apmia.org.pk'
+                                ]
+                            ]
+                        ],
+                        'footer' => [
+                            'type' => 'tab',
+                            'title' => 'Footer',
+                            'fields' => [
+                                'footer.about' => [
+                                    'type' => 'textarea',
+                                    'label' => 'About blurb',
+                                    'help' => 'Short text shown at the top of the footer.',
+                                    'rows' => 3,
+                                    'default' => 'The authoritative voice of Pakistan\'s dimension stone sector since 1985, registered with the Directorate General of Trade Organizations (DGTO) under the Federal Ministry of Commerce.'
+                                ],
+                                'footer.columns' => [
+                                    'type' => 'list',
+                                    'label' => 'Link columns',
+                                    'help' => 'Each column has a title and a list of links. Use site paths such as /about/top-office-bearers.',
+                                    'style' => 'vertical',
+                                    'fields' => [
+                                        '.title' => [
+                                            'type' => 'text',
+                                            'label' => 'Column title'
+                                        ],
+                                        '.links' => [
+                                            'type' => 'list',
+                                            'label' => 'Links',
+                                            'style' => 'vertical',
+                                            'fields' => [
+                                                '.label' => [
+                                                    'type' => 'text',
+                                                    'label' => 'Label'
+                                                ],
+                                                '.url' => [
+                                                    'type' => 'text',
+                                                    'label' => 'Link'
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ],
+                                'footer.contact_title' => [
+                                    'type' => 'text',
+                                    'label' => 'Contact column title',
+                                    'default' => 'Here We Are'
+                                ],
+                                'footer.address' => [
+                                    'type' => 'textarea',
+                                    'label' => 'Address',
+                                    'rows' => 2,
+                                    'default' => '1st Floor, Plot # 45, Street # 10, I-9/2 Industrial Area, Islamabad'
+                                ],
+                                'footer.phones' => [
+                                    'type' => 'selectize',
+                                    'label' => 'Phone numbers',
+                                    'help' => 'Press Enter after each number.',
+                                    'classes' => 'fancy',
+                                    'validate' => [
+                                        'type' => 'commalist'
+                                    ]
+                                ],
+                                'footer.emails' => [
+                                    'type' => 'selectize',
+                                    'label' => 'Email addresses',
+                                    'help' => 'Press Enter after each address.',
+                                    'classes' => 'fancy',
+                                    'validate' => [
+                                        'type' => 'commalist'
+                                    ]
+                                ],
+                                'footer.hours' => [
+                                    'type' => 'text',
+                                    'label' => 'Opening hours',
+                                    'default' => 'Monday – Saturday, 10 am – 5 pm'
+                                ],
+                                'footer.copyright' => [
+                                    'type' => 'text',
+                                    'label' => 'Copyright text',
+                                    'default' => '© 2026 All Pakistan Marble Industries Association. All Rights Reserved.'
+                                ],
+                                'footer.powered_by_name' => [
+                                    'type' => 'text',
+                                    'label' => 'Powered by (name)',
+                                    'default' => 'ITlinks'
+                                ],
+                                'footer.powered_by_url' => [
+                                    'type' => 'text',
+                                    'label' => 'Powered by (link)',
+                                    'default' => 'https://www.itlinks.com'
+                                ]
+                            ]
+                        ],
+                        'news' => [
+                            'type' => 'tab',
+                            'title' => 'News',
+                            'fields' => [
+                                'news.per_page' => [
+                                    'type' => 'text',
+                                    'label' => 'News items per page',
+                                    'default' => 12,
+                                    'validate' => [
+                                        'type' => 'int',
+                                        'min' => 3,
+                                        'max' => 60
+                                    ]
+                                ],
+                                'news_categories' => [
+                                    'type' => 'list',
+                                    'label' => 'News categories',
+                                    'help' => 'Controls the News dropdown and the filter buttons on the news page. The slug must match the category used on the news item.',
+                                    'style' => 'vertical',
+                                    'fields' => [
+                                        '.slug' => [
+                                            'type' => 'text',
+                                            'label' => 'Slug',
+                                            'help' => 'Lower case, e.g. press-releases'
+                                        ],
+                                        '.label' => [
+                                            'type' => 'text',
+                                            'label' => 'Label'
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+];

@@ -1,0 +1,4 @@
+1792153288
+04.news__SLASH__up-coming-events
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:21:"news/up-coming-events";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:2:{s:5:"title";s:16:"Up Coming Events";s:8:"file_url";s:70:"https://www.apmia.org.pk/wp-content/uploads/2017/10/Build-Asia-Bro.pdf";}s:11:"frontmatter";s:108:"title: "Up Coming Events"
+file_url: "https://www.apmia.org.pk/wp-content/uploads/2017/10/Build-Asia-Bro.pdf"";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:21:"news/up-coming-events";s:11:"storage_key";s:24:"04.news/up-coming-events";s:8:"template";s:8:"document";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"document";i:1792151585;}}s:8:"checksum";s:32:"ce3a7732e4cb3db44140d720fae49dcd";}}

@@ -1,0 +1,12 @@
+1792153288
+04.news__SLASH__1392
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:9:"news/1392";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:52:"A meeting with President FPCCI, Vice President FPCCI";s:4:"date";s:16:"2019-04-18 08:15";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:33:"meeting-with-government-officials";}}}s:11:"frontmatter";s:150:"title: "A meeting with President FPCCI, Vice President FPCCI"
+date: "2019-04-18 08:15"
+taxonomy:
+  category:
+    - "meeting-with-government-officials"";s:8:"markdown";s:236:"A meeting was held between Mr. Mian Gulzar Ahmad, Chairman APMIA, Mr. Muhammad Qasim, Deputy Secretary APMIA and Mr. Daroo Khan Achakzai, President FPCCI, Vice President FPCCI in FPCCI Capital House, Islamabad.
+
+![](9.png)
+
+![](10.png)
+";}s:7:"storage";a:6:{s:3:"key";s:9:"news/1392";s:11:"storage_key";s:12:"04.news/1392";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"12fef9c5ec973e2e3a7b224acc84c530";}}

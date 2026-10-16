@@ -1,0 +1,41 @@
+{% import 'macros/ui.html.twig' as ui %}
+{% set theme = config.theme %}
+{% set f = theme.footer %}
+<footer class="site-footer">
+    <div class="container footer-top">
+        <div class="footer-brand">
+            <a class="brand brand-light" href="{{ base_url == '' ? '/' : base_url }}">
+                <img src="{{ logo_url }}" alt="" width="56" height="56">
+                <span class="brand-text"><strong>{{ theme.org.name|default(site.title) }}</strong></span>
+            </a>
+            {% if f.about %}<p>{{ f.about }}</p>{% endif %}
+        </div>
+
+        {% for col in f.columns %}
+        <nav class="footer-col" aria-label="{{ col.title }}">
+            <h4>{{ col.title }}</h4>
+            <ul>
+                {% for l in col.links %}
+                <li><a href="{{ l.url starts with 'http' ? l.url : (l.url == '/' ? (base_url == '' ? '/' : base_url) : base_url ~ l.url) }}">{{ l.label }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% endfor %}
+
+        <div class="footer-col footer-contact">
+            <h4>{{ f.contact_title|default('Here We Are') }}</h4>
+            <ul>
+                {% if f.address %}<li>{{ ui.icon('pin') }}<span>{{ f.address }}</span></li>{% endif %}
+                {% for ph in f.phones %}<li>{{ ui.icon('phone') }}<a href="tel:{{ ph|replace({' ':'', '-':''}) }}">{{ ph }}</a></li>{% endfor %}
+                {% for em in f.emails %}<li>{{ ui.icon('mail') }}<a href="mailto:{{ em }}">{{ em }}</a></li>{% endfor %}
+                {% if f.hours %}<li>{{ ui.icon('clock') }}<span>{{ f.hours }}</span></li>{% endif %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+            <p>{{ f.copyright }} Powered by <a href="{{ f.powered_by_url }}" target="_blank" rel="noopener">{{ f.powered_by_name }}</a></p>
+        </div>
+    </div>
+</footer>

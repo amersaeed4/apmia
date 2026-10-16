@@ -1,0 +1,48 @@
+title: Objectives Grid
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        objectives:
+          type: tab
+          title: Objectives
+          fields:
+            header.eyebrow:
+              type: text
+              label: Small label
+            header.title:
+              type: text
+              label: Section title
+              default: Objectives
+            header.lead:
+              type: text
+              label: Intro line
+            header.items:
+              type: list
+              label: Objectives
+              style: vertical
+              fields:
+                .icon:
+                  type: select
+                  label: Icon
+                  options:
+                    mountain: Mountain
+                    truck: Truck
+                    cog: Gear
+                    globe: Globe
+                    users: People
+                    leaf: Leaf
+                    landmark: Landmark
+                    link: Link
+                    award: Award
+                    handshake: Handshake
+                    building: Building
+                .title:
+                  type: text
+                  label: Title
+                .text:
+                  type: textarea
+                  rows: 3
+                  label: Text

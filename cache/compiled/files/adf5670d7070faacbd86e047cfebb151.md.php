@@ -1,0 +1,62 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
+    'filename' => '/Users/amer/Sites/apmia/user/pages/04.news/election-schedule-of-all-pakistan-marble-industries-association-apmia-for-the-year-of-2022-2023/newsitem.md',
+    'modified' => 1792151585,
+    'size' => 5463,
+    'data' => [
+        'header' => [
+            'title' => 'ELECTION SCHEDULE OF ALL PAKISTAN MARBLE INDUSTRIES ASSOCIATION (APMIA) FOR THE YEAR OF 2022-2023',
+            'date' => '2022-07-14 11:49',
+            'taxonomy' => [
+                'category' => [
+                    0 => 'elections'
+                ]
+            ]
+        ],
+        'frontmatter' => 'title: "ELECTION SCHEDULE OF ALL PAKISTAN MARBLE INDUSTRIES ASSOCIATION (APMIA) FOR THE YEAR OF 2022-2023"
+date: "2022-07-14 11:49"
+taxonomy:
+  category:
+    - "elections"',
+        'markdown' => '# ELECTION SCHEDULE OF ALL PAKISTAN MARBLE INDUSTRIES ASSOCIATION (APMIA) FOR THE YEAR OF 2022-2023
+
+| **S. No** | **Events** | **Day & Date** |
+|---|---|---|
+| **1** | Display of election schedule at notice board of head office and regional offices of the Association, within two days of approval of Election Schedule by Executive Committee and also display the election schedule at website of Association | 15 July, 2022 (Friday) |
+| **2** | Within three days of the announcement of election schedule members/firms desiring to change their representative shall intimate changes regarding names of representative to the secretary general along with necessary proof of eligibility. | 18 July, 2022 (Monday) |
+| **3** | Within seven days of announcement of election schedule, Secretary General of Association display the provisional list of all members eligible to vote along with their national tax number, sales-tax registration number, if applicable, the name and national identity card number of their representative at notice board of the head office, regional offices and website of the Association. | 25 July, 2022 (Monday) |
+| **4** | Within seven days of issuance of the voters list, Objections to entries of voters list from member in writing to the secretary general. | 1st August, 2022 (Monday) |
+| **5** | Within five days from receipt of objections, the secretary general intimate objections or changes, if any. | 6 August, 2022 (Saturday) |
+| **6** | Any person/member aggrieved by decision of the secretary general may, within three days of receipt of the decision, make a representative to Election Commission which shall decide the representation within three days. | 10 August, 2022 (Wednesday) |
+| **7** | Any person/member aggrieved by decision of the Election Commission may file appeal to DGTO within three days of decision of Election Commission. | 13 August, 2022 (Saturday) |
+| **8** | DGTO shall decide the appeal within 10 days and his decision in this regard shall be final. | 20 August, 2022 (Saturday) |
+| **9** | If no appeal filed to DGTO the final list of voters shall be displayed on notice board of head office, regional office and at website of Association within fifteen days of the decision of Election Commission | 24 August, 2022 (Wednesday) |
+| **10** | Issuance of notice to the member inviting nomination for the election on vacant seats of Executive Committee of APMIA. | 25 August, 2022 (Thursday) |
+| **11** | Within four days of display of final list of voters, who is eligible to contest elections for the vacant post, shall send his nomination duly proposed and seconded by a registered voter and signed by the candidate to the secretary general. | 29 August, 2022 (Monday) |
+| **12** | Within twenty four hours of receipt of nomination papers, a copy of final list of voters shall be provided to each contesting candidate. | 30 August, 2022 (Tuesday) |
+| **13** | Scrutiny of nomination papers by Election Commission and display of list of candidates within twenty four hours of the last date of receipt of nomination papers. | 31 August, 2022 (Wednesday) |
+| **14** | The objections, if any, to the nomination of the candidate to the election commission may be filed within twenty four hours of issuance of the candidates. | 1st September, 2022 (Thursday) |
+| **15** | Decision on objections of the candidates by the election commission within two days | 3 September, 2022 (Saturday) |
+| **16** | Appeal to the DGTO by any aggrieved candidates against the decision of Election Commission (DGTO shall give decision within seven days and his decision in this regard shall be final) | 7 September, 2022 (Wednesday) |
+| **17** | Issuance of the final list of candidates for contesting Election for the post of Executive Committee of the Association APMIA (Within two days of the decision of Regulator and if no appeal has been made to the Regulator, final list of candidates shall be issued within eleven days of the decision of Election Commission) | 9 September, 2022 (Saturday) |
+| **18** | Poling for the election of members of Executive Committee | 11 September, 2022 (Monday) |
+| **19** | Nomination for the election of office bearers from amongst elected executive committee members to be received by Election Commission (Proposed and Seconded by elected executive committee members) (Within two days of poling) | 14 September, 2022 (Wednesday) |
+| **20** | Scrutiny of nomination papers of the candidates for election of office bearers by the Election Commission and its display within twenty four hours of the last date of receipt of nomination papers. | 15 September, 2022 (Thursday) |
+| **21** | Within two days of display of final list of candidates, the poling for election of office bearers. | 17 September, 2022 (Saturday) |
+| **22** | Final announcements of election results of members of Executive Committee and Office Bearers in the Annual General Meeting (AGM) (Within fifteen days from the date of poling of office bearer’s election). | 24 September, 2022 (Saturday) |
+
+**NOTE:**
+
+**IN CASE OF HOLIDAY ON ANY ELECTION SCHEDULED DATES, THE NEXT RECOGNIZED WORKING DAY WOULD AUTOMATICALLY BE TREATED AS A NEW DATE.**
+
+Best Regards,
+
+Syed Masud Gillani
+
+Secretary General
+
+All Pakistan Marble Industries Association
+'
+    ]
+];

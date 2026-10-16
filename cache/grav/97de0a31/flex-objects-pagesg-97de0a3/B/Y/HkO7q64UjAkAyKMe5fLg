@@ -1,0 +1,6 @@
+1792153277
+03.elections-2026-2028
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:19:"elections-2026-2028";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:4:{s:5:"title";s:21:"Elections (2026-2028)";s:4:"menu";s:21:"Elections (2026-2028)";s:12:"list_archive";b:1;s:13:"archive_title";s:18:"Previous elections";}s:11:"frontmatter";s:115:"title: "Elections (2026-2028)"
+menu: "Elections (2026-2028)"
+list_archive: true
+archive_title: "Previous elections"";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:19:"elections-2026-2028";s:11:"storage_key";s:22:"03.elections-2026-2028";s:8:"template";s:7:"section";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"section";i:1792151585;}}s:8:"children";a:6:{s:30:"01.election-schedule-2026-2028";b:0;s:27:"02.election-commission-2026";b:0;s:34:"03.voters-list-2026-2027-associate";b:0;s:34:"04.voters-list-2026-2027-corporate";b:0;s:34:"05.notice-inviting-cec-nominations";b:0;s:28:"previous-elections-2024-2026";b:0;}s:8:"checksum";s:32:"7f65e618167c5497e7c8788fe1f4208d";}}

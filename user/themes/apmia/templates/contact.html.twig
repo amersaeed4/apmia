@@ -1,0 +1,44 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{% block content %}
+    {% set f = config.theme.footer %}
+    {% set tb = config.theme.topbar %}
+    {% include 'partials/banner.html.twig' %}
+    <section class="section">
+        <div class="container contact-layout">
+            <div class="contact-form">
+                <h2>Send us a message</h2>
+                {% if page.content|striptags|trim is not empty %}<div class="prose">{{ page.content|raw }}</div>{% endif %}
+
+                {% include 'forms/form.html.twig' ignore missing %}
+            </div>
+
+            <aside class="contact-aside">
+                <div class="info-card">
+                    <h3>Our address</h3>
+                    <ul class="info-list">
+                        <li>{{ ui.icon('pin') }}<span>{{ f.address|default(tb.address) }}</span></li>
+                        {% for ph in f.phones %}<li>{{ ui.icon('phone') }}<a href="tel:{{ ph|replace({' ':'', '-':''}) }}">{{ ph }}</a></li>{% endfor %}
+                        {% for em in f.emails %}<li>{{ ui.icon('mail') }}<a href="mailto:{{ em }}">{{ em }}</a></li>{% endfor %}
+                        {% if f.hours %}<li>{{ ui.icon('clock') }}<span>{{ f.hours }}</span></li>{% endif %}
+                    </ul>
+                </div>
+                {% if page.header.links %}
+                <div class="info-card">
+                    <h3>{{ page.header.links_title|default('Important links') }}</h3>
+                    <ul class="info-list">
+                        {% for l in page.header.links %}<li>{{ ui.icon('external') }}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>{% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            </aside>
+        </div>
+
+        {% if page.header.map_embed %}
+        <div class="container map-wrap">
+            <div class="map"><iframe src="{{ page.header.map_embed }}" title="Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+        </div>
+        {% endif %}
+    </section>
+{% endblock %}

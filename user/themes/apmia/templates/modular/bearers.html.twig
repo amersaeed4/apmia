@@ -1,0 +1,14 @@
+{% import 'macros/ui.html.twig' as ui %}
+{% set h = page.header %}
+{% set src = page.find(h.source|default('/about/top-office-bearers')) %}
+<section class="section">
+    <div class="container">
+        {{ ui.heading(h.title|default('Top Office Bearers'), h.eyebrow, h.lead) }}
+        {% if src %}
+        <div class="people-grid">
+            {% for p in src.children|filter(c => c.template == 'person' and c.published)|slice(0, h.limit|default(4)) %}{{ ui.person_card(p) }}{% endfor %}
+        </div>
+        <p class="center"><a class="btn btn-ghost" href="{{ src.url }}">{{ h.button_label|default('View all') }} {{ ui.icon('arrow') }}</a></p>
+        {% endif %}
+    </div>
+</section>

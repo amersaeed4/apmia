@@ -1,0 +1,61 @@
+1792153277
+07.contact
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:7:"contact";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:7:{s:5:"title";s:10:"Contact Us";s:4:"menu";s:10:"Contact Us";s:8:"subtitle";s:33:"We would be glad to hear from you";s:9:"map_embed";s:286:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.897689119143!2d73.04436101520474!3d33.65981278071448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df951e099a339f%3A0x5769b69137e8bec1!2sAPMIA+(All+Pakistan+Marble+Industries+Association)!5e0!3m2!1sen!2s!4v1546410935259";s:11:"links_title";s:15:"Important links";s:5:"links";a:3:{i:0;a:2:{s:5:"label";s:24:"Federal Board of Revenue";s:3:"url";s:22:"https://www.fbr.gov.pk";}i:1;a:2:{s:5:"label";s:20:"Ministry of Commerce";s:3:"url";s:26:"http://www.commerce.gov.pk";}i:2;a:2:{s:5:"label";s:34:"Pakistan Stone Development Company";s:3:"url";s:20:"http://pasdec.com.pk";}}s:4:"form";a:4:{s:4:"name";s:13:"apmia-contact";s:6:"fields";a:6:{s:4:"name";a:4:{s:5:"label";s:9:"Your name";s:11:"placeholder";s:9:"Full name";s:4:"type";s:4:"text";s:8:"validate";a:1:{s:8:"required";b:1;}}s:5:"email";a:4:{s:5:"label";s:5:"Email";s:11:"placeholder";s:15:"you@example.com";s:4:"type";s:5:"email";s:8:"validate";a:1:{s:8:"required";b:1;}}s:5:"phone";a:2:{s:5:"label";s:16:"Phone (optional)";s:4:"type";s:4:"text";}s:7:"subject";a:3:{s:5:"label";s:7:"Subject";s:4:"type";s:4:"text";s:8:"validate";a:1:{s:8:"required";b:1;}}s:7:"message";a:4:{s:5:"label";s:7:"Message";s:4:"type";s:8:"textarea";s:4:"rows";i:6;s:8:"validate";a:1:{s:8:"required";b:1;}}s:8:"honeypot";a:1:{s:4:"type";s:8:"honeypot";}}s:7:"buttons";a:1:{s:6:"submit";a:2:{s:4:"type";s:6:"submit";s:5:"value";s:12:"Send message";}}s:7:"process";a:4:{i:0;a:1:{s:4:"save";a:4:{s:10:"fileprefix";s:8:"contact-";s:10:"dateformat";s:9:"Ymd-His-u";s:9:"extension";s:3:"txt";s:4:"body";s:35:"{% include 'forms/data.txt.twig' %}";}}i:1;a:1:{s:5:"email";a:3:{s:7:"subject";s:42:"[APMIA website] {{ form.value.subject|e }}";s:4:"body";s:36:"{% include 'forms/data.html.twig' %}";s:8:"reply_to";s:22:"{{ form.value.email }}";}}i:2;a:1:{s:7:"message";s:64:"Thank you for getting in touch. We will reply as soon as we can.";}i:3;a:1:{s:5:"reset";b:1;}}}}s:11:"frontmatter";s:1749:"title: "Contact Us"
+menu: "Contact Us"
+subtitle: "We would be glad to hear from you"
+map_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.897689119143!2d73.04436101520474!3d33.65981278071448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df951e099a339f%3A0x5769b69137e8bec1!2sAPMIA+(All+Pakistan+Marble+Industries+Association)!5e0!3m2!1sen!2s!4v1546410935259"
+links_title: "Important links"
+links:
+  - label: "Federal Board of Revenue"
+    url: "https://www.fbr.gov.pk"
+  - label: "Ministry of Commerce"
+    url: "http://www.commerce.gov.pk"
+  - label: "Pakistan Stone Development Company"
+    url: "http://pasdec.com.pk"
+form:
+  name: "apmia-contact"
+  fields:
+    name:
+      label: "Your name"
+      placeholder: "Full name"
+      type: "text"
+      validate:
+        required: true
+    email:
+      label: "Email"
+      placeholder: "you@example.com"
+      type: "email"
+      validate:
+        required: true
+    phone:
+      label: "Phone (optional)"
+      type: "text"
+    subject:
+      label: "Subject"
+      type: "text"
+      validate:
+        required: true
+    message:
+      label: "Message"
+      type: "textarea"
+      rows: 6
+      validate:
+        required: true
+    honeypot:
+      type: "honeypot"
+  buttons:
+    submit:
+      type: "submit"
+      value: "Send message"
+  process:
+    - save:
+        fileprefix: "contact-"
+        dateformat: "Ymd-His-u"
+        extension: "txt"
+        body: "{% include 'forms/data.txt.twig' %}"
+    - email:
+        subject: "[APMIA website] {{ form.value.subject|e }}"
+        body: "{% include 'forms/data.html.twig' %}"
+        reply_to: "{{ form.value.email }}"
+    - message: "Thank you for getting in touch. We will reply as soon as we can."
+    - reset: true";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:7:"contact";s:11:"storage_key";s:10:"07.contact";s:8:"template";s:7:"contact";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"contact";i:1792151585;}}s:8:"checksum";s:32:"5b7fe09101afd78a072a8ba9e23be504";}}

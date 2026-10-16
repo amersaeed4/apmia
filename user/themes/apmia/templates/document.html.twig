@@ -1,0 +1,35 @@
+{% extends 'partials/base.html.twig' %}
+{% import 'macros/ui.html.twig' as ui %}
+
+{# A page that presents a downloadable file (PDF etc.), with an optional inline viewer #}
+{% block content %}
+    {% include 'partials/banner.html.twig' %}
+    {% set fname = page.header.file %}
+    {% set f = fname ? page.media[fname] : null %}
+    {% set furl = f ? f.url : page.header.file_url %}
+    <section class="section">
+        <div class="container container-narrow">
+            {% if page.content|striptags|trim is not empty %}
+            <article class="prose">{{ page.content|raw }}</article>
+            {% endif %}
+
+            {% if furl %}
+            <div class="doc-card">
+                <span class="doc-icon">{{ ui.icon('file') }}</span>
+                <div class="doc-info">
+                    <strong>{{ page.header.file_label|default(page.title) }}</strong>
+                    <small>{{ (fname ?: furl)|split('.')|last|upper }}{% if f and f.size %} · {{ (f.size / 1048576)|number_format(2) }} MB{% endif %}</small>
+                </div>
+                <a class="btn" href="{{ furl }}" download>{{ ui.icon('download') }} Download</a>
+                <a class="btn btn-ghost" href="{{ furl }}" target="_blank" rel="noopener">{{ ui.icon('external') }} Open</a>
+            </div>
+            {% if page.header.embed|default(true) and (fname|lower ends with '.pdf' or furl|lower ends with '.pdf') %}
+            <div class="doc-viewer">
+                <iframe src="{{ furl }}#view=FitH" title="{{ page.title }}" loading="lazy"></iframe>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% include 'partials/archive.html.twig' %}
+        </div>
+    </section>
+{% endblock %}

@@ -1,0 +1,30 @@
+title: Call To Action
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        cta:
+          type: tab
+          title: Section
+          fields:
+            header.title:
+              type: text
+              label: Title
+            header.text:
+              type: textarea
+              rows: 2
+              label: Text
+            header.button_label:
+              type: text
+              label: Main button label
+            header.button_url:
+              type: text
+              label: Main button link
+            header.button2_label:
+              type: text
+              label: Second button label
+            header.button2_url:
+              type: text
+              label: Second button link

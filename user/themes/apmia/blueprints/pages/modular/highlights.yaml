@@ -1,0 +1,23 @@
+title: Highlights Strip
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        items:
+          type: tab
+          title: Highlights
+          fields:
+            header.items:
+              type: list
+              label: Highlights
+              style: vertical
+              fields:
+                .value:
+                  type: text
+                  label: Big text
+                  placeholder: e.g. 1985
+                .label:
+                  type: text
+                  label: Caption

@@ -1,0 +1,13 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    {% include 'partials/banner.html.twig' %}
+    <section class="section">
+        <div class="container{{ '<table' in page.content ? '' : ' container-narrow' }}">
+            <article class="prose">
+                {{ page.content|raw }}
+            </article>
+            {% include 'partials/archive.html.twig' %}
+        </div>
+    </section>
+{% endblock %}

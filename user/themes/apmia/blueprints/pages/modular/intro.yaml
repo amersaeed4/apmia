@@ -1,0 +1,27 @@
+title: Text + Image
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        intro:
+          type: tab
+          title: Section
+          fields:
+            header.eyebrow:
+              type: text
+              label: Small label
+            header.title:
+              type: text
+              label: Title
+            header.image:
+              type: filepicker
+              label: Image
+              preview_images: true
+            header.button_label:
+              type: text
+              label: Button label
+            header.button_url:
+              type: text
+              label: Button link

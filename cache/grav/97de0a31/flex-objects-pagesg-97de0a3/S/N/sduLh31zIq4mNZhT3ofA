@@ -1,0 +1,19 @@
+1792153288
+04.news__SLASH__meeting-with-collector-exports
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:35:"news/meeting-with-collector-exports";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:30:"Meeting with collector exports";s:4:"date";s:16:"2018-10-22 10:40";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:33:"meeting-with-government-officials";}}}s:11:"frontmatter";s:128:"title: "Meeting with collector exports"
+date: "2018-10-22 10:40"
+taxonomy:
+  category:
+    - "meeting-with-government-officials"";s:8:"markdown";s:617:"A meeting was conducted of APMIA representatives with collector exports regarding minimum value of exports and they also suggested to keep an advisory committee from APMIA for further guidance. Both suggestions were accepted and APMIA representatives immediately shared the value of formula (Reverse calculation of cost) to the Assistant Collector along with the other relevant officers.
+
+The advisory committee of APMIA will consist of the following members,
+
+1. i) Muhammad Saleem Khan
+1. ii) Atiq Ur Rehman Abbasi
+
+iii) Mr. Haroon Rasheed
+
+1. iv) Niaz Muhammad
+
+v) Mr. Faraz Khan (Office Secreatry, Southern Zone)
+";}s:7:"storage";a:6:{s:3:"key";s:35:"news/meeting-with-collector-exports";s:11:"storage_key";s:38:"04.news/meeting-with-collector-exports";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"7fcbcbc8f3afac31da37c02c5d512617";}}

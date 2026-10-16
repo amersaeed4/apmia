@@ -1,0 +1,5 @@
+1792153289
+03.elections-2026-2028__SLASH__01.election-schedule-2026-2028
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:47:"elections-2026-2028/election-schedule-2026-2028";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:27:"Election Schedule 2026-2028";s:4:"file";s:36:"Election-Schedule-2026-2028.xlsx.pdf";s:5:"embed";b:1;}s:11:"frontmatter";s:93:"title: "Election Schedule 2026-2028"
+file: "Election-Schedule-2026-2028.xlsx.pdf"
+embed: true";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:47:"elections-2026-2028/election-schedule-2026-2028";s:11:"storage_key";s:53:"03.elections-2026-2028/01.election-schedule-2026-2028";s:8:"template";s:8:"document";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"document";i:1792151585;}}s:8:"checksum";s:32:"c1b6edaef4560440f4774ad32251ca57";}}

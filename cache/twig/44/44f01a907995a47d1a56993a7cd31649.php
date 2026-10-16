@@ -1,0 +1,369 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\CoreExtension;
+use Twig\Extension\SandboxExtension;
+use Twig\MacroNamespace;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Sandbox\SecurityNotAllowedTestError;
+use Twig\Source;
+use Twig\Template;
+use Twig\TemplateWrapper;
+
+/* @Page:/Users/amer/Sites/apmia/user/pages/04.news/election-schedule-of-all-pakistan-marble-industries-association-apmia-for-the-year-of-2022-2023 */
+class __TwigTemplate_98808c856a903613bd4d7a600f3f91c4_sourced extends Template
+{
+    private Source $source;
+    /**
+     * @var array<string, MacroNamespace>
+     */
+    private array $macros = [];
+
+    public function __construct(Environment $env)
+    {
+        $this->sandbox = $env->getExtension(SandboxExtension::class)->getChecker();
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = []): iterable
+    {
+        $macros = $this->macros;
+        // line 1
+        yield "<h1>ELECTION SCHEDULE OF ALL PAKISTAN MARBLE INDUSTRIES ASSOCIATION (APMIA) FOR THE YEAR OF 2022-2023</h1>
+<table>
+<thead>
+<tr>
+<th><strong>S. No</strong></th>
+<th><strong>Events</strong></th>
+<th><strong>Day &amp; Date</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td>Display of election schedule at notice board of head office and regional offices of the Association, within two days of approval of Election Schedule by Executive Committee and also display the election schedule at website of Association</td>
+<td>15 July, 2022 (Friday)</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>Within three days of the announcement of election schedule members/firms desiring to change their representative shall intimate changes regarding names of representative to the secretary general along with necessary proof of eligibility.</td>
+<td>18 July, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>Within seven days of announcement of election schedule, Secretary General of Association display the provisional list of all members eligible to vote along with their national tax number, sales-tax registration number, if applicable, the name and national identity card number of their representative at notice board of the head office, regional offices and website of the Association.</td>
+<td>25 July, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td>Within seven days of issuance of the voters list, Objections to entries of voters list from member in writing to the secretary general.</td>
+<td>1st August, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td>Within five days from receipt of objections, the secretary general intimate objections or changes, if any.</td>
+<td>6 August, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td>Any person/member aggrieved by decision of the secretary general may, within three days of receipt of the decision, make a representative to Election Commission which shall decide the representation within three days.</td>
+<td>10 August, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>7</strong></td>
+<td>Any person/member aggrieved by decision of the Election Commission may file appeal to DGTO within three days of decision of Election Commission.</td>
+<td>13 August, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>8</strong></td>
+<td>DGTO shall decide the appeal within 10 days and his decision in this regard shall be final.</td>
+<td>20 August, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>9</strong></td>
+<td>If no appeal filed to DGTO the final list of voters shall be displayed on notice board of head office, regional office and at website of Association within fifteen days of the decision of Election Commission</td>
+<td>24 August, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>10</strong></td>
+<td>Issuance of notice to the member inviting nomination for the election on vacant seats of Executive Committee of APMIA.</td>
+<td>25 August, 2022 (Thursday)</td>
+</tr>
+<tr>
+<td><strong>11</strong></td>
+<td>Within four days of display of final list of voters, who is eligible to contest elections for the vacant post, shall send his nomination duly proposed and seconded by a registered voter and signed by the candidate to the secretary general.</td>
+<td>29 August, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>12</strong></td>
+<td>Within twenty four hours of receipt of nomination papers, a copy of final list of voters shall be provided to each contesting candidate.</td>
+<td>30 August, 2022 (Tuesday)</td>
+</tr>
+<tr>
+<td><strong>13</strong></td>
+<td>Scrutiny of nomination papers by Election Commission and display of list of candidates within twenty four hours of the last date of receipt of nomination papers.</td>
+<td>31 August, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>14</strong></td>
+<td>The objections, if any, to the nomination of the candidate to the election commission may be filed within twenty four hours of issuance of the candidates.</td>
+<td>1st September, 2022 (Thursday)</td>
+</tr>
+<tr>
+<td><strong>15</strong></td>
+<td>Decision on objections of the candidates by the election commission within two days</td>
+<td>3 September, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>16</strong></td>
+<td>Appeal to the DGTO by any aggrieved candidates against the decision of Election Commission (DGTO shall give decision within seven days and his decision in this regard shall be final)</td>
+<td>7 September, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>17</strong></td>
+<td>Issuance of the final list of candidates for contesting Election for the post of Executive Committee of the Association APMIA (Within two days of the decision of Regulator and if no appeal has been made to the Regulator, final list of candidates shall be issued within eleven days of the decision of Election Commission)</td>
+<td>9 September, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>18</strong></td>
+<td>Poling for the election of members of Executive Committee</td>
+<td>11 September, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>19</strong></td>
+<td>Nomination for the election of office bearers from amongst elected executive committee members to be received by Election Commission (Proposed and Seconded by elected executive committee members) (Within two days of poling)</td>
+<td>14 September, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>20</strong></td>
+<td>Scrutiny of nomination papers of the candidates for election of office bearers by the Election Commission and its display within twenty four hours of the last date of receipt of nomination papers.</td>
+<td>15 September, 2022 (Thursday)</td>
+</tr>
+<tr>
+<td><strong>21</strong></td>
+<td>Within two days of display of final list of candidates, the poling for election of office bearers.</td>
+<td>17 September, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>22</strong></td>
+<td>Final announcements of election results of members of Executive Committee and Office Bearers in the Annual General Meeting (AGM) (Within fifteen days from the date of poling of office bearer’s election).</td>
+<td>24 September, 2022 (Saturday)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>NOTE:</strong></p>
+<p><strong>IN CASE OF HOLIDAY ON ANY ELECTION SCHEDULED DATES, THE NEXT RECOGNIZED WORKING DAY WOULD AUTOMATICALLY BE TREATED AS A NEW DATE.</strong></p>
+<p>Best Regards,</p>
+<p>Syed Masud Gillani</p>
+<p>Secretary General</p>
+<p>All Pakistan Marble Industries Association</p>";
+        return; yield;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getTemplateName(): string
+    {
+        return "@Page:/Users/amer/Sites/apmia/user/pages/04.news/election-schedule-of-all-pakistan-marble-industries-association-apmia-for-the-year-of-2022-2023";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDefaultEscapeStrategy(): string|false
+    {
+        return "html";
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
+    public function getDebugInfo(): array
+    {
+        return array (  45 => 1,);
+    }
+
+    public function getSourceContext(): Source
+    {
+        return new Source("<h1>ELECTION SCHEDULE OF ALL PAKISTAN MARBLE INDUSTRIES ASSOCIATION (APMIA) FOR THE YEAR OF 2022-2023</h1>
+<table>
+<thead>
+<tr>
+<th><strong>S. No</strong></th>
+<th><strong>Events</strong></th>
+<th><strong>Day &amp; Date</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td>Display of election schedule at notice board of head office and regional offices of the Association, within two days of approval of Election Schedule by Executive Committee and also display the election schedule at website of Association</td>
+<td>15 July, 2022 (Friday)</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>Within three days of the announcement of election schedule members/firms desiring to change their representative shall intimate changes regarding names of representative to the secretary general along with necessary proof of eligibility.</td>
+<td>18 July, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>Within seven days of announcement of election schedule, Secretary General of Association display the provisional list of all members eligible to vote along with their national tax number, sales-tax registration number, if applicable, the name and national identity card number of their representative at notice board of the head office, regional offices and website of the Association.</td>
+<td>25 July, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td>Within seven days of issuance of the voters list, Objections to entries of voters list from member in writing to the secretary general.</td>
+<td>1st August, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>5</strong></td>
+<td>Within five days from receipt of objections, the secretary general intimate objections or changes, if any.</td>
+<td>6 August, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td>Any person/member aggrieved by decision of the secretary general may, within three days of receipt of the decision, make a representative to Election Commission which shall decide the representation within three days.</td>
+<td>10 August, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>7</strong></td>
+<td>Any person/member aggrieved by decision of the Election Commission may file appeal to DGTO within three days of decision of Election Commission.</td>
+<td>13 August, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>8</strong></td>
+<td>DGTO shall decide the appeal within 10 days and his decision in this regard shall be final.</td>
+<td>20 August, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>9</strong></td>
+<td>If no appeal filed to DGTO the final list of voters shall be displayed on notice board of head office, regional office and at website of Association within fifteen days of the decision of Election Commission</td>
+<td>24 August, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>10</strong></td>
+<td>Issuance of notice to the member inviting nomination for the election on vacant seats of Executive Committee of APMIA.</td>
+<td>25 August, 2022 (Thursday)</td>
+</tr>
+<tr>
+<td><strong>11</strong></td>
+<td>Within four days of display of final list of voters, who is eligible to contest elections for the vacant post, shall send his nomination duly proposed and seconded by a registered voter and signed by the candidate to the secretary general.</td>
+<td>29 August, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>12</strong></td>
+<td>Within twenty four hours of receipt of nomination papers, a copy of final list of voters shall be provided to each contesting candidate.</td>
+<td>30 August, 2022 (Tuesday)</td>
+</tr>
+<tr>
+<td><strong>13</strong></td>
+<td>Scrutiny of nomination papers by Election Commission and display of list of candidates within twenty four hours of the last date of receipt of nomination papers.</td>
+<td>31 August, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>14</strong></td>
+<td>The objections, if any, to the nomination of the candidate to the election commission may be filed within twenty four hours of issuance of the candidates.</td>
+<td>1st September, 2022 (Thursday)</td>
+</tr>
+<tr>
+<td><strong>15</strong></td>
+<td>Decision on objections of the candidates by the election commission within two days</td>
+<td>3 September, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>16</strong></td>
+<td>Appeal to the DGTO by any aggrieved candidates against the decision of Election Commission (DGTO shall give decision within seven days and his decision in this regard shall be final)</td>
+<td>7 September, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>17</strong></td>
+<td>Issuance of the final list of candidates for contesting Election for the post of Executive Committee of the Association APMIA (Within two days of the decision of Regulator and if no appeal has been made to the Regulator, final list of candidates shall be issued within eleven days of the decision of Election Commission)</td>
+<td>9 September, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>18</strong></td>
+<td>Poling for the election of members of Executive Committee</td>
+<td>11 September, 2022 (Monday)</td>
+</tr>
+<tr>
+<td><strong>19</strong></td>
+<td>Nomination for the election of office bearers from amongst elected executive committee members to be received by Election Commission (Proposed and Seconded by elected executive committee members) (Within two days of poling)</td>
+<td>14 September, 2022 (Wednesday)</td>
+</tr>
+<tr>
+<td><strong>20</strong></td>
+<td>Scrutiny of nomination papers of the candidates for election of office bearers by the Election Commission and its display within twenty four hours of the last date of receipt of nomination papers.</td>
+<td>15 September, 2022 (Thursday)</td>
+</tr>
+<tr>
+<td><strong>21</strong></td>
+<td>Within two days of display of final list of candidates, the poling for election of office bearers.</td>
+<td>17 September, 2022 (Saturday)</td>
+</tr>
+<tr>
+<td><strong>22</strong></td>
+<td>Final announcements of election results of members of Executive Committee and Office Bearers in the Annual General Meeting (AGM) (Within fifteen days from the date of poling of office bearer’s election).</td>
+<td>24 September, 2022 (Saturday)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>NOTE:</strong></p>
+<p><strong>IN CASE OF HOLIDAY ON ANY ELECTION SCHEDULED DATES, THE NEXT RECOGNIZED WORKING DAY WOULD AUTOMATICALLY BE TREATED AS A NEW DATE.</strong></p>
+<p>Best Regards,</p>
+<p>Syed Masud Gillani</p>
+<p>Secretary General</p>
+<p>All Pakistan Marble Industries Association</p>", "@Page:/Users/amer/Sites/apmia/user/pages/04.news/election-schedule-of-all-pakistan-marble-industries-association-apmia-for-the-year-of-2022-2023", "");
+    }
+    
+    public function ensureSecurityChecked(): void
+    {
+        if ($this->sandbox->isSandboxed($this->source)) {
+            $this->checkSecurity();
+        }
+    }
+    
+    public function checkSecurity()
+    {
+        static $tags = [];
+        static $filters = [];
+        static $functions = [];
+        static $tests = [];
+
+        try {
+            $this->sandbox->checkSecurity(
+                [],
+                [],
+                [],
+                [],
+                $this->source
+            );
+        } catch (SecurityError $e) {
+            if ($e instanceof SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+                $e->setTemplateLine($tags[$e->getTagName()]);
+            } elseif ($e instanceof SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+                $e->setTemplateLine($filters[$e->getFilterName()]);
+            } elseif ($e instanceof SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+                $e->setTemplateLine($functions[$e->getFunctionName()]);
+            } elseif ($e instanceof SecurityNotAllowedTestError && isset($tests[$e->getTestName()])) {
+                $e->setTemplateLine($tests[$e->getTestName()]);
+            }
+
+            throw $e;
+        }
+
+    }
+}

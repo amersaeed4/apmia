@@ -1,0 +1,10 @@
+1792153288
+04.news__SLASH__a-meeting-with-the-commercial-counselor-mr-demir-ahmet-in-embassy-of-turkey-islamabad
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:90:"news/a-meeting-with-the-commercial-counselor-mr-demir-ahmet-in-embassy-of-turkey-islamabad";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:3:{s:5:"title";s:55:"A meeting with the Commercial Counselor Mr. Demir Ahmet";s:4:"date";s:16:"2019-03-22 07:57";s:8:"taxonomy";a:1:{s:8:"category";a:1:{i:0;s:33:"meeting-with-government-officials";}}}s:11:"frontmatter";s:153:"title: "A meeting with the Commercial Counselor Mr. Demir Ahmet"
+date: "2019-03-22 07:57"
+taxonomy:
+  category:
+    - "meeting-with-government-officials"";s:8:"markdown";s:312:"A meeting was held between Mr. Mian Gulzar Ahmad, Chairman APMIA, Mr. Sheikh Iftikhar Rasheed, Vice Chairman APMIA, Mr. Muhammad Sabir Khan, Member Executive Committee APMIA and Mr. Muhammad Qasim, Deputy Secretary APMIA with the Commercial Counselor Mr. Demir Ahmet in Embassy of Turkey, Islamabad.
+
+![](6.png)
+";}s:7:"storage";a:6:{s:3:"key";s:90:"news/a-meeting-with-the-commercial-counselor-mr-demir-ahmet-in-embassy-of-turkey-islamabad";s:11:"storage_key";s:93:"04.news/a-meeting-with-the-commercial-counselor-mr-demir-ahmet-in-embassy-of-turkey-islamabad";s:8:"template";s:8:"newsitem";s:17:"storage_timestamp";i:1792151585;s:8:"markdown";a:1:{s:0:"";a:1:{s:8:"newsitem";i:1792151585;}}s:8:"checksum";s:32:"f061cc64e4ba45b6b6c12c8b13199286";}}
