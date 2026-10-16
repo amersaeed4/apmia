@@ -3,7 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/apmiaort/public_html/
     - /bin/mkdir -p ${DEPLOYPATH}cache ${DEPLOYPATH}logs ${DEPLOYPATH}tmp ${DEPLOYPATH}backup ${DEPLOYPATH}user
-    - /bin/tar -cf - --exclude='./.git' --exclude='./.cpanel.yml' --exclude='./.env' --exclude='./cache' --exclude='./logs' --exclude='./tmp' --exclude='./backup' --exclude='./user/accounts' --exclude='./user/data' . | /bin/tar -xf - -C ${DEPLOYPATH}
+    - /bin/tar -cf - --exclude='./.git' --exclude='./.cpanel.yml' --exclude='./.env' --exclude='./cache' --exclude='./logs' --exclude='./tmp' --exclude='./backup' --exclude='./user/accounts' --exclude='./user/data' . | /bin/tar -xf - --no-overwrite-dir -C ${DEPLOYPATH}
     - /bin/cp -Rn ./user/accounts ${DEPLOYPATH}user/
     - /bin/cp -Rn ./user/data ${DEPLOYPATH}user/
     - /bin/rm -rf ${DEPLOYPATH}cache/*
+    - /bin/chmod 0750 ${DEPLOYPATH}
