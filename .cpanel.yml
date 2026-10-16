@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/drmohsin/public_html/
+    - export DEPLOYPATH=/home/apmiaort/public_html/
     - /usr/bin/rsync -a --exclude='.git' --exclude='.cpanel.yml' --exclude='.env' --exclude='/cache/' --exclude='/logs/' --exclude='/tmp/' --exclude='/backup/' --exclude='/user/accounts/' --exclude='/user/data/' ./ $DEPLOYPATH
     - /usr/bin/rsync -a --ignore-existing ./user/accounts/ ${DEPLOYPATH}user/accounts/
     - /usr/bin/rsync -a --ignore-existing ./user/data/ ${DEPLOYPATH}user/data/
