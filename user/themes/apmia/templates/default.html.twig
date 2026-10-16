@@ -5,7 +5,7 @@
     <section class="section">
         <div class="container{{ '<table' in page.content ? '' : ' container-narrow' }}">
             <article class="prose">
-                {{ page.content|raw }}
+                {{ page.content|albumize(page)|raw }}
             </article>
             {% include 'partials/archive.html.twig' %}
         </div>

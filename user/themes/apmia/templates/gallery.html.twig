@@ -7,7 +7,7 @@
     {% set items = page.header.gallery_items|default([]) %}
     <section class="section">
         <div class="container">
-            {% if page.content|striptags|trim is not empty %}<article class="prose prose-intro">{{ page.content|raw }}</article>{% endif %}
+            {% if page.content|striptags|trim is not empty %}<article class="prose prose-intro">{{ page.content|albumize(page)|raw }}</article>{% endif %}
             <div class="photo-grid" data-lightbox>
                 {% if items|length %}
                     {% for it in items %}

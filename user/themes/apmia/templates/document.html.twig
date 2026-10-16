@@ -10,7 +10,7 @@
     <section class="section">
         <div class="container container-narrow">
             {% if page.content|striptags|trim is not empty %}
-            <article class="prose">{{ page.content|raw }}</article>
+            <article class="prose">{{ page.content|albumize(page)|raw }}</article>
             {% endif %}
 
             {% if furl %}

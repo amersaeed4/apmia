@@ -9,7 +9,7 @@
         <div class="container contact-layout">
             <div class="contact-form">
                 <h2>Send us a message</h2>
-                {% if page.content|striptags|trim is not empty %}<div class="prose">{{ page.content|raw }}</div>{% endif %}
+                {% if page.content|striptags|trim is not empty %}<div class="prose">{{ page.content|albumize(page)|raw }}</div>{% endif %}
 
                 {% include 'forms/form.html.twig' ignore missing %}
             </div>

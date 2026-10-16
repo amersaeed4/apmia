@@ -15,7 +15,7 @@
             </div>
 
             <article class="prose article">
-                {{ page.content|raw }}
+                {{ page.content|albumize(page)|raw }}
             </article>
 
             {% set more = page.parent.children|filter(c => c.template == 'newsitem' and c.published and c.route != page.route)|sort((a, b) => b.date <=> a.date)|slice(0, 3) %}

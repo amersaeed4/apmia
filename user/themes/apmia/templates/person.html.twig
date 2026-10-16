@@ -21,7 +21,7 @@
                         {% if h.phone %}<dt>Telephone</dt><dd><a href="tel:{{ h.phone|replace({' ':'', '-':''}) }}">{{ h.phone }}</a></dd>{% endif %}
                         {% if h.email %}<dt>Email</dt><dd><a href="mailto:{{ h.email }}">{{ h.email }}</a></dd>{% endif %}
                     </dl>
-                    {% if page.content|striptags|trim is not empty %}<div class="prose">{{ page.content|raw }}</div>{% endif %}
+                    {% if page.content|striptags|trim is not empty %}<div class="prose">{{ page.content|albumize(page)|raw }}</div>{% endif %}
                     <p><a class="btn btn-ghost" href="{{ page.parent.url }}">{{ ui.icon('left') }} Back to {{ page.parent.title }}</a></p>
                 </div>
             </div>

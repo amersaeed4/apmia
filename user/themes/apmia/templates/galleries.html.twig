@@ -6,7 +6,7 @@
     {% include 'partials/banner.html.twig' %}
     <section class="section">
         <div class="container">
-            {% if page.content|striptags|trim is not empty %}<article class="prose prose-intro">{{ page.content|raw }}</article>{% endif %}
+            {% if page.content|striptags|trim is not empty %}<article class="prose prose-intro">{{ page.content|albumize(page)|raw }}</article>{% endif %}
             <div class="tile-grid">
                 {% for c in page.children.visible %}
                 {% set cover = c.header.cover ? c.media[c.header.cover] : null %}

@@ -9,7 +9,7 @@
     <section class="section">
         <div class="container">
             {% if page.content|striptags|trim is not empty %}
-            <article class="prose prose-intro">{{ page.content|raw }}</article>
+            <article class="prose prose-intro">{{ page.content|albumize(page)|raw }}</article>
             {% endif %}
 
             {% if persons|length %}
