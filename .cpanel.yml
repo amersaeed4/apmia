@@ -6,5 +6,7 @@ deployment:
     - /bin/tar -cf - --exclude='./.git' --exclude='./.cpanel.yml' --exclude='./.env' --exclude='./cache' --exclude='./logs' --exclude='./tmp' --exclude='./backup' --exclude='./user/accounts' --exclude='./user/data' . | /bin/tar -xf - --no-overwrite-dir -C ${DEPLOYPATH}
     - /bin/cp -Rn ./user/accounts ${DEPLOYPATH}user/
     - /bin/cp -Rn ./user/data ${DEPLOYPATH}user/
+    - /bin/rm -rf ${DEPLOYPATH}user/pages/02.about/01.top-office-bearers/01.mr-muhammad-bilal-khan ${DEPLOYPATH}user/pages/02.about/01.top-office-bearers/02.mr-muhammad-irfan-zafar ${DEPLOYPATH}user/pages/02.about/01.top-office-bearers/03.mr-rahat-shah ${DEPLOYPATH}user/pages/02.about/01.top-office-bearers/04.mr-shah-khalid-safi
+    - /bin/rm -f ${DEPLOYPATH}user/data/flex/indexes/pages.json
     - /bin/rm -rf ${DEPLOYPATH}cache/*
     - /bin/chmod 0750 ${DEPLOYPATH}
